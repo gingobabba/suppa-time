@@ -1,0 +1,82 @@
+{
+  "week_of": "2026-03-17",
+  "updated": "2026-03-15",
+  "days": [
+    {
+      "date": "2026-03-17",
+      "day": "Monday",
+      "meal": {
+        "title": "Beef Enchilada Casserole",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/beef-enchilada-casserole",
+        "time_minutes": 45,
+        "tags": ["beef", "casserole", "mexican-inspired", "weeknight"],
+        "servings": 6,
+        "ingredients": [],
+        "steps": [],
+        "notes": "Serves 6 — 3 leftover portions cover Tuesday."
+      }
+    },
+    {
+      "date": "2026-03-18",
+      "day": "Tuesday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Leftovers"
+    },
+    {
+      "date": "2026-03-19",
+      "day": "Wednesday",
+      "meal": {
+        "title": "Butternut Squash Farro-tto",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/butternut-squash-farro-tto",
+        "time_minutes": 45,
+        "tags": ["vegetarian", "farro", "squash", "weeknight", "one-pot"],
+        "servings": 6,
+        "ingredients": [],
+        "steps": [],
+        "notes": "Serves 6 — 3 leftover portions cover Thursday."
+      }
+    },
+    {
+      "date": "2026-03-20",
+      "day": "Thursday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Leftovers"
+    },
+    {
+      "date": "2026-03-21",
+      "day": "Friday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Takeout or leftovers"
+    },
+    {
+      "date": "2026-03-22",
+      "day": "Saturday",
+      "meal": {
+        "title": "Sorta Pasta alla Norma",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/sorta-pasta-alla-norma",
+        "time_minutes": 40,
+        "tags": ["pasta", "sausage", "eggplant", "weeknight", "one-pot"],
+        "servings": 6,
+        "ingredients": [],
+        "steps": [],
+        "notes": "Serves 6 — 3 leftover portions cover Sunday. Pasta slot for March."
+      }
+    },
+    {
+      "date": "2026-03-23",
+      "day": "Sunday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Leftovers"
+    }
+  ]
+}
