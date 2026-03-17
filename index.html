@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="suppa time">
+<meta name="apple-mobile-web-app-title" content="suppahtime">
 <meta name="theme-color" content="#111110">
-<title>suppa time</title>
+<title>suppahtime</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -738,7 +738,7 @@
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 18l-6-6 6-6"/></svg>
     <span id="nav-back-label">Week</span>
   </button>
-  <span class="nav-title" id="nav-title">suppa time</span>
+  <span class="nav-title" id="nav-title">suppahtime</span>
   <span class="nav-week" id="nav-week"></span>
 </nav>
 
@@ -1327,7 +1327,7 @@ function updateRatingUI(value) {
 function goBack() {
   document.getElementById('recipe-view').classList.remove('visible');
   document.getElementById('nav-back').classList.remove('visible');
-  document.getElementById('nav-title').textContent = "suppa time";
+  document.getElementById('nav-title').textContent = "suppahtime";
   currentRecipeKey = null;
   if (recipeViewSource === 'recipes') {
     showView('recipes');
@@ -1513,7 +1513,7 @@ function showView(view) {
   currentView = view;
   document.getElementById('recipe-view').classList.remove('visible');
   document.getElementById('nav-back').classList.remove('visible');
-  document.getElementById('nav-title').textContent = "suppa time";
+  document.getElementById('nav-title').textContent = "suppahtime";
   currentRecipeKey = null;
 
   document.getElementById('week-view').style.display = view === 'week' ? 'block' : 'none';
