@@ -1097,7 +1097,7 @@ function renderWeek() {
           <span class="day-num">${dateNum}</span>
         </div>
         <div class="day-body" style="display:flex;align-items:center;gap:8px;">
-          <span class="rest-label">${eff.rest_day_label || 'Rest day'}</span>
+          <span class="rest-label">${(eff.rest_day_label || 'Leftovers').replace(/^Rest$/i, 'Leftovers')}</span>
           ${isOverridden ? '<span class="edited-badge">edited</span>' : ''}
         </div>
         ${editMode ? '<div class="day-swap-btn">↔</div>' : ''}`;
