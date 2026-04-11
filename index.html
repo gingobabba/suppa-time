@@ -275,6 +275,24 @@
   .day-item.rest .day-arrow { display: none; }
   .day-arrow svg { width: 14px; height: 14px; }
 
+  .day-refresh-btn {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 100%;
+    background: none;
+    border: none;
+    color: var(--ink-light);
+    cursor: pointer;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    transition: color 0.15s, transform 0.25s;
+  }
+  .day-refresh-btn:active { color: var(--accent); transform: rotate(180deg); }
+  .day-refresh-btn svg { width: 15px; height: 15px; }
+
   .day-swap-btn {
     flex-shrink: 0;
     display: flex;
@@ -1069,6 +1087,20 @@ function renderSwapList() {
   });
 }
 
+function randomSwap(dayIdx, event) {
+  event.stopPropagation();
+  if (!recipesData || !recipesData.length) return;
+  const day = planData.days[dayIdx];
+  const eff = getEffectiveDay(day);
+  const currentTitle = eff.meal ? eff.meal.title : null;
+  const pool = currentTitle ? recipesData.filter(r => r.title !== currentTitle) : recipesData;
+  if (!pool.length) return;
+  const pick = pool[Math.floor(Math.random() * pool.length)];
+  saveOverride(day.date, { meal: pick, rest_day: false, rest_day_label: null });
+  renderWeek();
+  if (currentView === 'grocery') renderGrocery();
+}
+
 function renderWeek() {
   document.getElementById('week-title').textContent = formatWeekOf(planData.week_of);
   document.getElementById('week-updated').textContent = 'Updated ' + formatDate(planData.updated);
@@ -1130,11 +1162,12 @@ function renderWeek() {
         </div>
         ${editMode
           ? '<div class="day-swap-btn">↔</div>'
-          : '<div class="day-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg></div>'}`;
+          : `<button class="day-refresh-btn" aria-label="Swap for random recipe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-4.46"/></svg></button><div class="day-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg></div>`}`;
 
       if (editMode) {
         li.onclick = () => openSwapModal(idx);
       } else {
+        li.querySelector('.day-refresh-btn').addEventListener('click', e => randomSwap(idx, e));
         li.onclick = () => openRecipe(idx);
       }
     }
