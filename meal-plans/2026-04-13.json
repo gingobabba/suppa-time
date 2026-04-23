@@ -1,0 +1,101 @@
+{
+  "week_of": "2026-04-13",
+  "updated": "2026-04-22",
+  "days": [
+    {
+      "date": "2026-04-13",
+      "day": "Monday",
+      "meal": {
+        "title": "30-Minute Honey Gochujang Glazed Salmon",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/30-minute-honey-gochujang-glazed",
+        "time_minutes": 30,
+        "tags": ["salmon", "fish", "rice", "broccoli", "asian-inspired", "quick", "weeknight"],
+        "servings": 4,
+        "ingredients": [],
+        "steps": [],
+        "notes": ""
+      }
+    },
+    {
+      "date": "2026-04-14",
+      "day": "Tuesday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Rest"
+    },
+    {
+      "date": "2026-04-15",
+      "day": "Wednesday",
+      "meal": {
+        "title": "Crispy Chickpea and Lemon Tahini Kale Salad",
+        "source": "Jenn Lueke",
+        "source_type": "online",
+        "source_url": "https://jenneatsgoood.com/crispy-chickpea-lemony-tahini-kale-salad/",
+        "time_minutes": 45,
+        "tags": ["vegetarian", "vegan", "gluten-free", "dairy-free"],
+        "servings": 4,
+        "ingredients": [
+          { "item": "dry quinoa", "amount": "1 cup" },
+          { "item": "shredded kale", "amount": "12 oz" },
+          { "item": "chickpeas, drained and rinsed", "amount": "two 15-oz cans" },
+          { "item": "olive oil", "amount": "1 tbsp + 1/4 cup" },
+          { "item": "garlic powder", "amount": "1 tsp + 1 tsp" },
+          { "item": "nutritional yeast", "amount": "1 tbsp + 1 tbsp" },
+          { "item": "apple cider vinegar", "amount": "1/4 cup" },
+          { "item": "coconut aminos", "amount": "2 tbsp" },
+          { "item": "tahini", "amount": "1/4 cup" },
+          { "item": "lemon, juiced", "amount": "1" },
+          { "item": "warm water, for thinning", "amount": "as needed" }
+        ],
+        "steps": [
+          "Preheat oven to 400°F and line a large sheet pan with parchment paper.",
+          "Bring a pot of salted water to a boil. Add quinoa, reduce heat to low, cover, and cook until all liquid is absorbed, about 15 minutes.",
+          "Spread drained chickpeas on the sheet pan and pat dry. Toss with 1 tbsp olive oil, 1 tsp salt, 1 tsp garlic powder, and 1 tbsp nutritional yeast. Bake until crisp, about 20 minutes.",
+          "Make the dressing: whisk together 1/4 cup olive oil, apple cider vinegar, coconut aminos, tahini, lemon juice, 1/2 tsp salt, 1/2 tsp pepper, 1 tsp garlic powder, and 1 tbsp nutritional yeast. Thin with warm water 1 tbsp at a time as needed.",
+          "Add kale to a large bowl. Pour over the dressing and massage it in with your hands until the kale softens.",
+          "Add the cooked quinoa and crispy chickpeas to the bowl and toss to combine."
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "date": "2026-04-16",
+      "day": "Thursday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Rest"
+    },
+    {
+      "date": "2026-04-17",
+      "day": "Friday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Takeout or leftovers"
+    },
+    {
+      "date": "2026-04-18",
+      "day": "Saturday",
+      "meal": {
+        "title": "Sheet Pan Greek Chicken and Potatoes",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/sheet-pan-greek-chicken-and-potatoes",
+        "time_minutes": 55,
+        "tags": ["chicken", "sheet-pan", "greek-inspired", "potatoes", "weekend"],
+        "servings": 4,
+        "ingredients": [],
+        "steps": [],
+        "notes": ""
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "day": "Sunday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Rest"
+    }
+  ]
+}
