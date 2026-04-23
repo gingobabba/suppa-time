@@ -1571,10 +1571,15 @@ async function init() {
 
   if (allWeeks.length) {
     // Find the most appropriate week: last week whose start <= today, or first future week
-    const today = new Date().toISOString().slice(0, 10);
+    const todayDate = new Date();
+    const today = todayDate.toISOString().slice(0, 10);
     currentWeekIdx = 0;
     for (let i = 0; i < allWeeks.length; i++) {
       if (allWeeks[i] <= today) currentWeekIdx = i;
+    }
+    // On Saturdays, jump ahead to preview the upcoming week
+    if (todayDate.getDay() === 6 && currentWeekIdx < allWeeks.length - 1) {
+      currentWeekIdx++;
     }
     await loadWeek(allWeeks[currentWeekIdx]);
   } else {
