@@ -1569,6 +1569,24 @@ async function init() {
     allWeeks = [];
   }
 
+  // Probe for up to 2 past weeks before the earliest week in the index
+  if (allWeeks.length > 0) {
+    const base = new Date(allWeeks[0] + 'T00:00:00');
+    const pastFound = [];
+    for (let w = 1; w <= 2; w++) {
+      const d = new Date(base);
+      d.setDate(base.getDate() - 7 * w);
+      const s = d.toISOString().slice(0, 10);
+      if (!allWeeks.includes(s)) {
+        try {
+          const r = await fetch('plans/' + s + '.json', { method: 'HEAD' });
+          if (r.ok) pastFound.unshift(s);
+        } catch(e) {}
+      }
+    }
+    if (pastFound.length) allWeeks = [...pastFound, ...allWeeks];
+  }
+
   if (allWeeks.length) {
     // Find the most appropriate week: last week whose start <= today, or first future week
     const todayDate = new Date();
