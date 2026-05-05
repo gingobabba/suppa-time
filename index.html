@@ -1569,13 +1569,14 @@ async function init() {
     allWeeks = [];
   }
 
-  // Probe for up to 2 past weeks before the earliest week in the index
+  // Probe for up to 2 past weeks before the earliest week, and 2 future weeks after the last
   if (allWeeks.length > 0) {
-    const base = new Date(allWeeks[0] + 'T00:00:00');
+    const first = new Date(allWeeks[0] + 'T00:00:00');
+    const last  = new Date(allWeeks[allWeeks.length - 1] + 'T00:00:00');
     const pastFound = [];
     for (let w = 1; w <= 2; w++) {
-      const d = new Date(base);
-      d.setDate(base.getDate() - 7 * w);
+      const d = new Date(first);
+      d.setDate(first.getDate() - 7 * w);
       const s = d.toISOString().slice(0, 10);
       if (!allWeeks.includes(s)) {
         try {
@@ -1585,6 +1586,17 @@ async function init() {
       }
     }
     if (pastFound.length) allWeeks = [...pastFound, ...allWeeks];
+    for (let w = 1; w <= 2; w++) {
+      const d = new Date(last);
+      d.setDate(last.getDate() + 7 * w);
+      const s = d.toISOString().slice(0, 10);
+      if (!allWeeks.includes(s)) {
+        try {
+          const r = await fetch('plans/' + s + '.json', { method: 'HEAD' });
+          if (r.ok) allWeeks.push(s);
+        } catch(e) {}
+      }
+    }
   }
 
   if (allWeeks.length) {
