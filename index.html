@@ -175,6 +175,7 @@
     color: var(--ink-light);
   }
   .day-name.today { color: var(--accent); }
+  .day-num.today  { color: var(--accent); }
   .day-num {
     font-family: var(--serif);
     font-size: 20px;
@@ -915,6 +916,7 @@ let weekOverrides = JSON.parse(localStorage.getItem('week_overrides') || '{}');
 // Multi-week
 let allWeeks = [];
 let currentWeekIdx = 0;
+let currentWeekDate = null;
 
 // Edit mode
 let editMode = false;
@@ -970,22 +972,50 @@ function clearOverride(date) {
   localStorage.setItem('week_overrides', JSON.stringify(weekOverrides));
 }
 
+// Date helpers that work in local time (no UTC offset surprises)
+function dateAddDays(s, n) {
+  const [y, m, d] = s.split('-').map(Number);
+  const dt = new Date(y, m - 1, d + n);
+  return [dt.getFullYear(), String(dt.getMonth()+1).padStart(2,'0'), String(dt.getDate()).padStart(2,'0')].join('-');
+}
+function localToday() {
+  const d = new Date();
+  return [d.getFullYear(), String(d.getMonth()+1).padStart(2,'0'), String(d.getDate()).padStart(2,'0')].join('-');
+}
+
 // Week navigation
 function updateWeekNavBtns() {
-  document.getElementById('week-prev').classList.toggle('visible', allWeeks.length > 0 && currentWeekIdx > 0);
-  document.getElementById('week-next').classList.toggle('visible', allWeeks.length > 0 && currentWeekIdx < allWeeks.length - 1);
+  const hasPrev = allWeeks.length > 0 && currentWeekIdx > 0;
+  let hasNext = allWeeks.length > 0 && currentWeekIdx < allWeeks.length - 1;
+  // Also show next if the potential next week falls within 2 weeks of today
+  if (!hasNext && currentWeekDate) {
+    hasNext = dateAddDays(currentWeekDate, 7) <= dateAddDays(localToday(), 14);
+  }
+  document.getElementById('week-prev').classList.toggle('visible', hasPrev);
+  document.getElementById('week-next').classList.toggle('visible', hasNext);
 }
 
 async function loadWeek(weekDate) {
+  currentWeekDate = weekDate;
+  let loaded = false;
   try {
     const res = await fetch('plans/' + weekDate + '.json');
+    if (!res.ok) throw new Error();
     planData = await res.json();
-    if (editMode) { editMode = false; }
-
-    updateWeekNavBtns();
+    if (editMode) editMode = false;
+    loaded = true;
+  } catch(e) {
+    planData = null;
+  }
+  updateWeekNavBtns();
+  if (loaded) {
     renderWeek();
     if (currentView === 'grocery') renderGrocery();
-  } catch(e) {
+  } else {
+    document.getElementById('week-title').textContent = formatWeekOf(weekDate);
+    document.getElementById('week-updated').textContent = '';
+    document.getElementById('nav-week').textContent =
+      new Date(weekDate + 'T00:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric' });
     document.getElementById('day-list').innerHTML =
       '<li style="padding:32px 20px;text-align:center;font-size:14px;color:var(--ink-light);font-family:var(--serif);font-style:italic;">This week hasn\'t been planned yet.</li>';
   }
@@ -1001,6 +1031,11 @@ async function goToNextWeek() {
   if (currentWeekIdx < allWeeks.length - 1) {
     currentWeekIdx++;
     await loadWeek(allWeeks[currentWeekIdx]);
+  } else if (currentWeekDate) {
+    const nextDate = dateAddDays(currentWeekDate, 7);
+    if (!allWeeks.includes(nextDate)) allWeeks.push(nextDate);
+    currentWeekIdx = allWeeks.indexOf(nextDate);
+    await loadWeek(nextDate);
   }
 }
 
@@ -1126,7 +1161,7 @@ function renderWeek() {
       li.innerHTML = `
         <div class="day-aside">
           <span class="day-name${today ? ' today' : ''}">${day.day.slice(0,3).toUpperCase()}</span>
-          <span class="day-num">${dateNum}</span>
+          <span class="day-num${today ? ' today' : ''}">${dateNum}</span>
         </div>
         <div class="day-body" style="display:flex;align-items:center;gap:8px;">
           <span class="rest-label">${(eff.rest_day_label || 'Leftovers').replace(/^Rest$/i, 'Leftovers')}</span>
@@ -1145,7 +1180,7 @@ function renderWeek() {
       li.innerHTML = `
         <div class="day-aside">
           <span class="day-name${today ? ' today' : ''}">${day.day.slice(0,3).toUpperCase()}</span>
-          <span class="day-num">${dateNum}</span>
+          <span class="day-num${today ? ' today' : ''}">${dateNum}</span>
         </div>
         <div class="day-body">
           <p class="day-meal-title">${m.title}</p>
@@ -1569,40 +1604,10 @@ async function init() {
     allWeeks = [];
   }
 
-  // Probe for up to 2 past weeks before the earliest week, and 2 future weeks after the last
-  if (allWeeks.length > 0) {
-    const first = new Date(allWeeks[0] + 'T00:00:00');
-    const last  = new Date(allWeeks[allWeeks.length - 1] + 'T00:00:00');
-    const pastFound = [];
-    for (let w = 1; w <= 2; w++) {
-      const d = new Date(first);
-      d.setDate(first.getDate() - 7 * w);
-      const s = d.toISOString().slice(0, 10);
-      if (!allWeeks.includes(s)) {
-        try {
-          const r = await fetch('plans/' + s + '.json', { method: 'HEAD' });
-          if (r.ok) pastFound.unshift(s);
-        } catch(e) {}
-      }
-    }
-    if (pastFound.length) allWeeks = [...pastFound, ...allWeeks];
-    for (let w = 1; w <= 2; w++) {
-      const d = new Date(last);
-      d.setDate(last.getDate() + 7 * w);
-      const s = d.toISOString().slice(0, 10);
-      if (!allWeeks.includes(s)) {
-        try {
-          const r = await fetch('plans/' + s + '.json', { method: 'HEAD' });
-          if (r.ok) allWeeks.push(s);
-        } catch(e) {}
-      }
-    }
-  }
-
   if (allWeeks.length) {
     // Find the most appropriate week: last week whose start <= today, or first future week
     const todayDate = new Date();
-    const today = todayDate.toISOString().slice(0, 10);
+    const today = localToday();
     currentWeekIdx = 0;
     for (let i = 0; i < allWeeks.length; i++) {
       if (allWeeks[i] <= today) currentWeekIdx = i;
