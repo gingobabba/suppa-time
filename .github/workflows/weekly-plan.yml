@@ -1,0 +1,36 @@
+name: Weekly Meal Plan
+
+on:
+  schedule:
+    - cron: '0 15 * * 0'  # Every Sunday at 8am PT (15:00 UTC)
+  workflow_dispatch:        # Allow manual trigger from GitHub Actions tab
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install anthropic
+
+      - name: Generate meal plan
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python generate_plan.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "suppahtime-bot"
+          git config user.email "actions@github.com"
+          git add plans/ meal-plans/ plan.json
+          WEEK=$(python3 -c "from datetime import date,timedelta; t=date.today(); print((t+timedelta(days=(7-t.weekday())%7 or 7)).isoformat())")
+          git diff --staged --quiet || git commit -m "auto: meal plan week of $WEEK"
+          git push
