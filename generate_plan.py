@@ -123,7 +123,7 @@ RULES — apply all strictly:
 - Mon–Thu: cooking meals only, max 45 min cook time
 - Friday: ALWAYS a rest day — no exceptions
 - Sat–Sun: any cook time, more ambitious OK
-- Aim for 3–4 cooking nights total (max 5). Never schedule two cooking nights in a row.
+- Aim for 3–4 cooking nights total (max 5). NEVER schedule two cooking nights in a row — always put a rest day between any two cooking days, including Saturday and Sunday.
 - One vegetarian meal per week (Wednesday preferred)
 - No protein appearing more than twice across the week
 - Mix chefs and source types — not all from one chef
