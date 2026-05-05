@@ -318,68 +318,9 @@
     {
       "date": "2026-05-17",
       "day": "Sunday",
-      "meal": {
-        "title": "No-Stir Zucchini Risotto",
-        "source": "What to Cook (Caroline Chambers)",
-        "source_type": "substack",
-        "source_url": "https://whattocook.substack.com/p/no-stir-zucchini-risotto",
-        "chef": "Caroline Chambers",
-        "time_minutes": 55,
-        "servings": 6,
-        "tags": [
-          "vegetarian",
-          "risotto",
-          "zucchini",
-          "one-pot",
-          "weekend"
-        ],
-        "ingredients": [
-          {
-            "item": "reduced-sodium chicken or vegetable stock (or 4 cups water + 4 tsp Better Than Bouillon)",
-            "amount": "4 cups"
-          },
-          {
-            "item": "shallots, minced",
-            "amount": "2"
-          },
-          {
-            "item": "garlic cloves, minced",
-            "amount": "4"
-          },
-          {
-            "item": "zucchini (medium), grated",
-            "amount": "3"
-          },
-          {
-            "item": "arborio rice (do not rinse)",
-            "amount": "2 cups"
-          },
-          {
-            "item": "Parmesan cheese, grated (ideally Parmigiano Reggiano), plus more for garnish",
-            "amount": "1 cup"
-          },
-          {
-            "item": "butter",
-            "amount": "4 tablespoons"
-          },
-          {
-            "item": "large lemon, halved",
-            "amount": "1"
-          },
-          {
-            "item": "kosher salt and black pepper",
-            "amount": "to taste"
-          },
-          {
-            "item": "fresh basil, thinly sliced (optional)",
-            "amount": "for garnish"
-          }
-        ],
-        "steps": [],
-        "notes": "Serves 6 \u2014 very filling as a vegetarian main."
-      },
-      "rest_day": false,
-      "rest_day_label": ""
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Takeout or leftovers"
     }
   ]
 }

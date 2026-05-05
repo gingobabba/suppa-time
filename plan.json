@@ -1,346 +1,326 @@
 {
-  "week_of": "2026-05-04",
+  "week_of": "2026-05-11",
   "updated": "2026-05-05",
   "days": [
     {
-      "date": "2026-05-04",
+      "date": "2026-05-11",
       "day": "Monday",
       "meal": {
-        "title": "Saucy Chicken and Cabbage Satay Bowls",
-        "source": "What to Cook When You Don't Feel Like Cooking",
+        "title": "30-Minute Chicken Parm Meatballs",
+        "source": "What to Cook (Caroline Chambers)",
         "source_type": "substack",
-        "source_url": "https://whattocook.substack.com/p/saucy-chicken-and-cabbage-satay-bowls",
+        "source_url": "https://whattocook.substack.com/p/30-minute-chicken-parm-meatballs",
         "chef": "Caroline Chambers",
         "time_minutes": 30,
         "servings": 4,
         "tags": [
           "chicken",
-          "asian",
-          "bowls",
+          "meatballs",
+          "italian",
           "quick",
-          "peanut",
-          "cabbage"
+          "weeknight",
+          "one-pan"
         ],
         "ingredients": [
-          {
-            "item": "sesame oil or neutral cooking oil (e.g. olive oil), divided",
-            "amount": "2 tablespoons"
-          },
-          {
-            "item": "coleslaw mix or shredded cabbage",
-            "amount": "2 (10\u201312 oz) bags"
-          },
-          {
-            "item": "sliced mushrooms (any kind), finely chopped",
-            "amount": "1 (8 oz) container"
-          },
-          {
-            "item": "scallions, roots trimmed, thinly sliced",
-            "amount": "1 bunch"
-          },
           {
             "item": "ground chicken",
             "amount": "1 pound"
           },
           {
+            "item": "panko breadcrumbs, plus more for rolling",
+            "amount": "1/3 cup"
+          },
+          {
+            "item": "Parmesan cheese, grated, plus more for garnish",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "Italian seasoning (or 1 tsp each dried thyme, oregano, and parsley)",
+            "amount": "1 tablespoon"
+          },
+          {
             "item": "kosher salt",
-            "amount": "to taste"
-          },
-          {
-            "item": "coconut milk",
-            "amount": "\u2154 can"
-          },
-          {
-            "item": "cilantro (leaves and stems), finely chopped",
-            "amount": "1 bunch (about 1 packed cup)"
-          },
-          {
-            "item": "fresh ginger, grated or minced (or \u00bc tsp ground ginger)",
-            "amount": "1-inch piece"
-          },
-          {
-            "item": "garlic cloves, grated or minced (or \u00bc tsp garlic powder)",
-            "amount": "2"
-          },
-          {
-            "item": "low-sodium soy sauce",
-            "amount": "3 tablespoons"
-          },
-          {
-            "item": "creamy peanut butter",
-            "amount": "1 tablespoon"
-          },
-          {
-            "item": "fish sauce",
-            "amount": "1 tablespoon"
-          },
-          {
-            "item": "sriracha",
-            "amount": "1 tablespoon"
-          },
-          {
-            "item": "rice vinegar or juice of \u00bd lime",
-            "amount": "2 teaspoons"
-          },
-          {
-            "item": "honey",
             "amount": "1 teaspoon"
           },
           {
-            "item": "curry powder",
-            "amount": "\u00be teaspoon"
+            "item": "fresh basil, finely chopped, plus more for garnish",
+            "amount": "1/4 cup"
           },
           {
-            "item": "ground cumin",
-            "amount": "\u00bc teaspoon"
+            "item": "garlic cloves, grated (or 1/2 tsp garlic powder)",
+            "amount": "2"
+          },
+          {
+            "item": "egg",
+            "amount": "1"
+          },
+          {
+            "item": "cooking spray",
+            "amount": ""
+          },
+          {
+            "item": "marinara sauce (24-oz jar)",
+            "amount": "1"
+          },
+          {
+            "item": "mozzarella (ciliegine, shredded, or burrata)",
+            "amount": "4 ounces"
+          },
+          {
+            "item": "French bread, sourdough, cooked pasta, or cauliflower rice",
+            "amount": "for serving"
           }
         ],
         "steps": [],
-        "notes": "Avocado oil subbed with olive oil. Serves 4 with rice, 3 without. Quick weeknight bowl."
+        "notes": ""
       },
       "rest_day": false,
       "rest_day_label": ""
     },
     {
-      "date": "2026-05-05",
+      "date": "2026-05-12",
       "day": "Tuesday",
       "meal": null,
       "rest_day": true,
       "rest_day_label": "Takeout or leftovers"
     },
     {
-      "date": "2026-05-06",
+      "date": "2026-05-13",
       "day": "Wednesday",
       "meal": {
-        "title": "Crispy Peanut TOFU Bowls",
-        "source": "Jenn Lueke",
-        "source_type": "online",
-        "source_url": "https://jenneatsgoood.com/crispy-peanut-tofu-bowls/",
-        "chef": "Jenn Lueke",
-        "time_minutes": 35,
+        "title": "30-Minute Crunchy Cheesy Bean Bake",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/30-minute-crunchy-cheesy-bean-bake",
+        "chef": "Caroline Chambers",
+        "time_minutes": 30,
         "servings": 4,
         "tags": [
           "vegetarian",
-          "vegan",
-          "gluten-free",
-          "dairy-free"
+          "beans",
+          "one-pan",
+          "quick",
+          "weeknight"
         ],
         "ingredients": [
           {
-            "item": "14-16 oz block of tofu (highly recommend the TJs high-protein one! no need to press that)",
-            "amount": ""
+            "item": "medium yellow onion, finely chopped",
+            "amount": "1/2"
           },
           {
-            "item": "1 cup cornflakes",
-            "amount": ""
+            "item": "garlic cloves, minced",
+            "amount": "2"
           },
           {
-            "item": "1/2 tsp salt",
-            "amount": ""
+            "item": "extra-virgin olive oil, divided",
+            "amount": "6 tablespoons"
           },
           {
-            "item": "1/2 tsp black pepper",
-            "amount": ""
+            "item": "dried red pepper flakes",
+            "amount": "pinch"
           },
           {
-            "item": "1 tsp garlic powder",
-            "amount": ""
+            "item": "kosher salt and black pepper",
+            "amount": "to taste"
           },
           {
-            "item": "1 tsp smoked paprika",
-            "amount": ""
+            "item": "tomato paste",
+            "amount": "1 heaping tablespoon"
           },
           {
-            "item": "1 tsp onion powder",
-            "amount": ""
+            "item": "diced tomatoes (14.5-oz can)",
+            "amount": "1"
           },
           {
-            "item": "1 cup plant milk",
-            "amount": ""
+            "item": "dried oregano",
+            "amount": "1 tablespoon"
           },
           {
-            "item": "1/2 cup cornstarch tapioca or arrowroot",
-            "amount": ""
+            "item": "water",
+            "amount": "1/4 cup"
           },
           {
-            "item": "1/2 cup peanut butter",
-            "amount": ""
+            "item": "cooked white beans (gigantes or cannellini), or 2 (15-oz) cans, rinsed and drained",
+            "amount": "3 cups"
           },
           {
-            "item": "2 tbsp coconut aminos/soy sauce",
-            "amount": ""
+            "item": "panko breadcrumbs",
+            "amount": "1 cup"
           },
           {
-            "item": "2 tbsp rice wine vinegar",
-            "amount": ""
+            "item": "Parmesan cheese, grated",
+            "amount": "1/4 cup"
           },
           {
-            "item": "2 tsp sesame oil",
-            "amount": ""
+            "item": "fresh thyme sprigs",
+            "amount": "3 (leaves only)"
           },
           {
-            "item": "1 tsp garlic powder",
-            "amount": ""
+            "item": "fresh mozzarella, thinly sliced",
+            "amount": "5 slices (about 3 oz)"
           },
           {
-            "item": "warm water as needed (~1/4 C)",
-            "amount": ""
-          },
-          {
-            "item": "1 cup rice, cooked",
-            "amount": ""
-          },
-          {
-            "item": "3 scallions, sliced",
-            "amount": ""
+            "item": "for serving",
+            "amount": "green salad and/or crusty bread (optional)"
           }
         ],
-        "steps": [
-          "Pat the tofu dry using a kitchen towel and cut it into ~1/2-inch cubes.",
-          "In a small bowl, mix the corn flakes, salt, pepper, garlic, paprika, and onion together. Use a spoon or heavy object to crush the cornflakes into small pieces.",
-          "Prepare three shallow bowls. Add the plant milk to the first one, cornstarch to the second, & cornflake mixture to the third.",
-          "To batter your tofu, start by coating it in cornstarch. Next, dip it into the milk, and finally, drop it into your cornflake mixture until fully coated. Repeat with all tofu cubes and set aside.",
-          "Fry in the air fryer for 8 minutes at 370 degrees or bake in the oven at 375 degrees for 8-10 mins on one side, then flip and bake for another 5-8 mins or until the tofu is golden brown and crispy.",
-          "Meanwhile, prepare the rice and whisk all of the peanut sauce ingredients together in a bowl. Add warm water as needed to thin.",
-          "When the tofu is done, toss with the peanut sauce (if you prefer, you can store the sauce separately and add when you're ready to eat) and assemble your bowls with equal servings of the rice, tofu, and green onions.",
-          "enjoy!! \ud83d\udc95"
-        ],
-        "notes": "\"> Notes {\"@context\":\"https:\\/\\/schema.org\",\"@type\":\"Recipe\",\"name\":\" CRISPY PEANUT TOFU BOWLS \",\"image\":[\"https:\\/\\/jenneatsgoood.com\\/wp-content\\/uploads\\/2024\\/04\\/IMG_8818.jpeg\",\"https:\\/\\/i0.wp.com\\/jenneatsgoood.com\\/wp-content\\/uploads\\/2024\\/04\\/IMG_8818.jpeg?resize=500%2C500&ssl=1\",\"https:\\/\\/i0.wp.com\\/jenneatsgoood.com\\/wp-content\\/uploads\\/2024\\/04\\/IMG_8818.jpeg?resize=500%2C375&ssl=1\",\"https:\\/\\/i0.wp.com\\/jenneatsgoood.com\\/wp-content\\/uploads\\/2024\\/04\\/IMG_8818.jpeg?resize=480%2"
+        "steps": [],
+        "notes": ""
       },
       "rest_day": false,
       "rest_day_label": ""
     },
     {
-      "date": "2026-05-07",
+      "date": "2026-05-14",
       "day": "Thursday",
-      "meal": null,
-      "rest_day": true,
-      "rest_day_label": "Takeout or leftovers"
+      "meal": {
+        "title": "Crispy Chicken Chili Verde Street Tacos",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/crispy-chicken-chili-verde-street",
+        "chef": "Caroline Chambers",
+        "time_minutes": 35,
+        "servings": 4,
+        "tags": [
+          "chicken",
+          "tacos",
+          "mexican-inspired",
+          "quick",
+          "weeknight",
+          "sheet-pan"
+        ],
+        "ingredients": [
+          {
+            "item": "ground chicken",
+            "amount": "1 pound"
+          },
+          {
+            "item": "white corn, drained",
+            "amount": "1 (14-oz) can"
+          },
+          {
+            "item": "diced green chiles (drain if watery)",
+            "amount": "1 (4-oz) can"
+          },
+          {
+            "item": "taco seasoning (ideally sodium-free), divided",
+            "amount": "3 teaspoons"
+          },
+          {
+            "item": "kosher salt, divided",
+            "amount": "1 1/8 teaspoons"
+          },
+          {
+            "item": "cheddar, pepper jack, or Monterey Jack, shredded",
+            "amount": "4 ounces (1 cup)"
+          },
+          {
+            "item": "street taco tortillas, flour or corn",
+            "amount": "20"
+          },
+          {
+            "item": "cooking spray",
+            "amount": ""
+          },
+          {
+            "item": "mayo, sour cream, or Greek yogurt (or a mix)",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "lime",
+            "amount": "1"
+          }
+        ],
+        "steps": [],
+        "notes": "Check the source link for shopping notes on ground chicken and sodium-free taco seasoning."
+      },
+      "rest_day": false,
+      "rest_day_label": ""
     },
     {
-      "date": "2026-05-08",
+      "date": "2026-05-15",
       "day": "Friday",
       "meal": null,
       "rest_day": true,
       "rest_day_label": "Takeout or leftovers"
     },
     {
-      "date": "2026-05-09",
+      "date": "2026-05-16",
       "day": "Saturday",
       "meal": {
-        "title": "Slow Cooker Short Rib Ragu",
-        "source": "Jenn Lueke",
-        "source_type": "online",
-        "source_url": "https://jenneatsgoood.com/slow-cooker-short-rib-ragu/",
-        "chef": "Jenn Lueke",
-        "time_minutes": 20,
-        "servings": 6,
+        "title": "Rotisserie-ish Chicken with Schmaltzy Cabbage",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/rotisserie-ish-chicken-with-schmaltzy",
+        "chef": "Caroline Chambers",
+        "time_minutes": 90,
+        "servings": 4,
         "tags": [
-          "gluten-free",
-          "dairy-free"
+          "chicken",
+          "whole-chicken",
+          "cabbage",
+          "sweet-potato",
+          "sheet-pan",
+          "weekend"
         ],
         "ingredients": [
           {
-            "item": "1 large yellow onion, finely diced",
-            "amount": ""
+            "item": "green cabbage head (~2 lbs), cored and thinly sliced",
+            "amount": "1"
           },
           {
-            "item": "3 large carrots, peeled and finely diced",
-            "amount": ""
-          },
-          {
-            "item": "3 celery ribs, finely diced",
-            "amount": ""
-          },
-          {
-            "item": "5 garlic cloves, minced",
-            "amount": ""
-          },
-          {
-            "item": "2 teaspoons dried oregano",
-            "amount": ""
-          },
-          {
-            "item": "1/2 teaspoon red pepper flakes (optional)",
-            "amount": ""
+            "item": "extra-virgin olive oil",
+            "amount": "as needed"
           },
           {
             "item": "kosher salt",
-            "amount": ""
+            "amount": "to taste"
+          },
+          {
+            "item": "brown sugar",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "smoked paprika",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "chili powder",
+            "amount": "1 teaspoon"
           },
           {
             "item": "ground black pepper",
-            "amount": ""
+            "amount": "1/2 teaspoon"
           },
           {
-            "item": "2 pounds bone-in beef short ribs",
-            "amount": ""
+            "item": "whole chicken (3 1/2 to 4 pounds)",
+            "amount": "1"
           },
           {
-            "item": "1 tablespoon olive oil",
-            "amount": ""
+            "item": "medium sweet potatoes",
+            "amount": "4"
           },
           {
-            "item": "4 ounces tomato paste",
-            "amount": ""
+            "item": "apple cider vinegar or lemon juice",
+            "amount": "1 tablespoon"
           },
           {
-            "item": "1 cup low-sodium beef broth",
-            "amount": ""
-          },
-          {
-            "item": "28 ounces crushed tomatoes",
-            "amount": ""
-          },
-          {
-            "item": "2 bay leaves",
-            "amount": ""
-          },
-          {
-            "item": "3 fresh thyme sprigs",
-            "amount": ""
-          },
-          {
-            "item": "14 ounces pasta of choice, cooked according to package instructions (I recommend gluten-free tagliatelle or brown rice spaghetti)",
-            "amount": ""
-          },
-          {
-            "item": "grated parmesan cheese (optional), for topping",
-            "amount": ""
-          },
-          {
-            "item": "finely chopped basil leaves (optional), for topping",
-            "amount": ""
+            "item": "unsalted butter",
+            "amount": "4 tablespoons"
           }
         ],
-        "steps": [
-          "Slow Cooker Method",
-          "To a 6-quart slow cooker, add the onion, carrots, celery, garlic, oregano, red pepper flakes, and a few generous pinches of salt and black pepper and set aside. Pat the short ribs dry with a paper towel and season generously with salt and black pepper to coat all sides.",
-          "Heat the olive oil in a large, deep cast iron or stainless steel skillet over medium heat. Carefully place the short ribs on the pan, evenly spaced apart, and cook until browned and crisp on four sides, about 2 minutes per side. Remove and place in the slow cooker bowl on top of the vegetables, leaving behind about 1 tablespoon oil in the skillet.",
-          "Add the tomato paste to the skillet and mix to soak up the oil. Cook, stirring continuously, until the paste turns dark red, about 1 minute. Pour in the beef broth and continue stirring until it comes to a simmer, getting any brown bits stuck on the pan as you mix. Remove from heat and carefully transfer to the slow cooker bowl along with the crushed tomatoes.",
-          "Gently mix to ensure the vegetables and short ribs are covered in liquid. Add the bay leaves and thyme and push down cover. Put the lid on the slow cooker and cook on low for 8 hours or high for 5 hours.",
-          "After the ribs are done cooking, discard the bay leaves and thyme, prepare your pasta, and shred up the ribs (either in the slow cooker bowl or on a cutting board), discarding the bones. The meat should be falling off the bone and shred easily at this point. If the meat is not shredding easily, that means you need to cook it longer. Check every 15 minutes from there until it easily shreds!",
-          "Return the meat to the slow cooker, mix to combine, salt to taste, and serve between 6 bowls over the cooked pasta. Top with grated parmesan and chopped basil (if using).",
-          "Stovetop Method",
-          "Pat the short ribs dry with a paper towel and season generously with salt and black pepper to coat all sides.",
-          "Heat the oil in a large dutch oven over medium heat. Carefully place the short ribs in the pot, evenly spaced apart, and cook until browned and crisp on all four sides, about 2 minutes per side. Remove and set aside on a plate.",
-          "To the same pot, add the onion, carrots, and celery and cook, stirring occasionally, until the onion is translucent and carrots are softened, about 10 minutes. Stir in the garlic, oregano, red pepper flakes, and a few pinches of salt and black pepper and continue cooking until fragrant, another 1 to 2 minutes.",
-          "Add the tomato paste and stir until it's mixed into the vegetables and dark red. Pour in the broth and stir, getting any brown bits stuck on the pot as you mix. Stir in the crushed tomatoes, increase heat to medium-high, and bring to a simmer. Nestle the short ribs into the sauce and top with the bay leaves and thyme.",
-          "Reduce the heat to low, cover the dutch oven, and simmer until the short ribs are falling off the bone, about 2 hours (if it's not falling off the bone, it's not done yet! keep checking every 10 minutes until it does). Discard the bay leaves and thyme and shred up the ribs (either in the slow cooker bowl or on a cutting board), discarding the bones.",
-          "Add the shredded short ribs back to the dutch oven and continue simmering on low for at least 20 minutes, or until serving. Salt to taste. Meanwhile, prepare your pasta.",
-          "Serve between 6 bowls over the cooked pasta. Top with grated parmesan and chopped basil (if using)."
-        ],
-        "notes": "\"> Notes Store it: Refrigerate the sauce in a sealed container for up to 4 days. Freeze for up to 3 months. Reheat it: Microwave the sauce until warm, about 2 minutes, or heat in a small sauce pot or pan over medium-low heat until warm, about 10 minutes. From frozen, thaw in the refrigerator for at least 8 hours or overnight then heat as instructed. {\"@context\":\"https:\\/\\/schema.org\",\"@type\":\"Recipe\",\"name\":\"SLOW COOKER SHORT RIB RAGU\",\"image\":[\"https:\\/\\/jenneatsgoood.com\\/wp-content\\/uploads\\/"
+        "steps": [],
+        "notes": "Whole chicken time varies by bird size and oven \u2014 start checking at 45 minutes."
       },
       "rest_day": false,
       "rest_day_label": ""
     },
     {
-      "date": "2026-05-10",
+      "date": "2026-05-17",
       "day": "Sunday",
       "meal": null,
       "rest_day": true,
-      "rest_day_label": "Leftovers"
+      "rest_day_label": "Takeout or leftovers"
     }
   ]
 }
