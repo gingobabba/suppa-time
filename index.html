@@ -1941,7 +1941,8 @@ function renderGrocery() {
         }
         if (!gHoriz) return;
         e.preventDefault();
-        div.style.transform = `translateX(${gDx}px)`;
+        const clamped = Math.max(-72, Math.min(72, gDx));
+        div.style.transform = `translateX(${clamped}px)`;
       });
       div.addEventListener('pointerup', () => {
         if (!gDragging) return;
