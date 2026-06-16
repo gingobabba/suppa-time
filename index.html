@@ -33,21 +33,30 @@
     --safe-bottom: env(safe-area-inset-bottom, 0px);
   }
 
-  html { background: var(--bg); }
+  html { background: var(--bg); height: 100dvh; overflow: hidden; }
 
   body {
     font-family: var(--sans);
     background: var(--bg);
     color: var(--ink);
-    min-height: 100dvh;
+    height: 100dvh;
+    overflow: hidden;
     max-width: 480px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     -webkit-font-smoothing: antialiased;
   }
 
+  #app-content {
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
   .nav {
-    position: sticky;
-    top: 0;
+    flex-shrink: 0;
     z-index: 100;
     background: var(--bg);
     border-bottom: 1px solid var(--rule);
@@ -85,7 +94,7 @@
     letter-spacing: 0.02em;
   }
 
-  #week-view { padding-bottom: calc(var(--safe-bottom) + 80px); }
+  #week-view { padding-bottom: 24px; }
 
   .week-header {
     padding: 20px 20px 14px;
@@ -321,7 +330,7 @@
   .toast {
     position: fixed;
     left: 50%;
-    bottom: calc(var(--safe-bottom) + 76px);
+    bottom: calc(var(--safe-bottom) + 68px);
     transform: translate(-50%, 12px);
     max-width: 88%;
     background: var(--ink);
@@ -347,7 +356,7 @@
 
   #recipe-view {
     display: none;
-    padding-bottom: calc(var(--safe-bottom) + 80px);
+    padding-bottom: 24px;
   }
   #recipe-view.visible { display: block; }
 
@@ -542,14 +551,14 @@
 
   #recipes-view {
     display: none;
-    padding-bottom: calc(var(--safe-bottom) + 80px);
+    padding-bottom: 24px;
   }
   #recipes-view.visible { display: block; }
   .recipes-header {
     padding: 14px 20px 10px;
     border-bottom: 1px solid var(--rule);
     position: sticky;
-    top: 57px;
+    top: 0;
     z-index: 10;
     background: var(--bg);
   }
@@ -589,15 +598,13 @@
 
   #grocery-view {
     display: none;
-    padding: 24px 20px;
-    padding-bottom: calc(var(--safe-bottom) + 80px);
-    overflow-x: hidden;
+    padding: 24px 20px 24px;
   }
   #grocery-view.visible { display: block; }
 
   #favorites-view {
     display: none;
-    padding-bottom: calc(var(--safe-bottom) + 80px);
+    padding-bottom: 24px;
   }
   #favorites-view.visible { display: block; }
   .grocery-header { margin-bottom: 20px; }
@@ -642,6 +649,7 @@
   }
   .grocery-copy-panel-left { left: 0; }
   .grocery-copy-panel-right { right: 0; }
+  .grocery-copy-panel .swipe-add-btn svg { width: 16px; height: 16px; }
   .grocery-item {
     display: flex;
     align-items: center;
@@ -685,12 +693,8 @@
   .grocery-section-label:first-child { padding-top: 0; }
 
   .tab-bar {
-    position: fixed;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    flex-shrink: 0;
     width: 100%;
-    max-width: 480px;
     background: var(--bg);
     border-top: 1px solid var(--rule);
     display: flex;
@@ -852,6 +856,7 @@
   <span class="nav-week" id="nav-week"></span>
 </nav>
 
+<div id="app-content">
 <div id="week-view">
   <div class="week-header">
     <div class="week-nav-row">
@@ -968,6 +973,7 @@
   </div>
   <ul class="day-list" id="favorites-list"></ul>
 </div>
+</div><!-- #app-content -->
 
 <div class="tab-bar">
   <div class="tab active" id="tab-week" onclick="showView('week')">
@@ -1607,7 +1613,7 @@ function renderRecipeView(m, navLabel) {
   document.getElementById('nav-back').classList.add('visible');
   document.getElementById('nav-back-label').textContent = recipeViewSource === 'recipes' ? 'Recipes' : 'Week';
   document.getElementById('nav-title').textContent = navLabel;
-  window.scrollTo(0, 0);
+  document.getElementById('app-content').scrollTop = 0;
 }
 
 function renderRecipes() {
