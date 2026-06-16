@@ -625,17 +625,36 @@
   }
   .grocery-copy-btn:active { background: var(--accent-dim); }
 
+  .grocery-item-wrap {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid var(--rule);
+  }
+  .grocery-copy-panel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--accent);
+  }
+  .grocery-copy-panel-left { left: 0; }
+  .grocery-copy-panel-right { right: 0; }
   .grocery-item {
     display: flex;
     align-items: center;
     gap: 12px;
     padding: 10px 0;
-    border-bottom: 1px solid var(--rule);
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
     touch-action: pan-y;
     user-select: none;
     -webkit-user-select: none;
+    position: relative;
+    z-index: 1;
+    background: var(--bg);
     transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1);
   }
   .grocery-item.swiping { transition: none; }
@@ -1873,6 +1892,9 @@ function renderGrocery() {
     return;
   }
 
+  const GROCERY_COPY_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
+  const GROCERY_COPY_PANEL_HTML = `<div class="grocery-copy-panel grocery-copy-panel-left"><button class="swipe-add-btn">${GROCERY_COPY_SVG}<span>Copy</span></button></div><div class="grocery-copy-panel grocery-copy-panel-right"><button class="swipe-add-btn">${GROCERY_COPY_SVG}<span>Copy</span></button></div>`;
+
   const groups = groupGroceryItems(items);
   let globalIdx = 0;
   groups.forEach(group => {
@@ -1883,6 +1905,9 @@ function renderGrocery() {
     group.items.forEach(item => {
       const key = globalIdx + '_' + item.item;
       globalIdx++;
+      const wrap = document.createElement('div');
+      wrap.className = 'grocery-item-wrap';
+      wrap.innerHTML = GROCERY_COPY_PANEL_HTML;
       const div = document.createElement('div');
       div.className = 'grocery-item' + (checkedItems[key] ? ' checked' : '');
       div.innerHTML = `
@@ -1935,7 +1960,8 @@ function renderGrocery() {
         div.style.transform = '';
       });
 
-      container.appendChild(div);
+      wrap.appendChild(div);
+      container.appendChild(wrap);
     });
   });
 }
