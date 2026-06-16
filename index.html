@@ -591,6 +591,7 @@
     display: none;
     padding: 24px 20px;
     padding-bottom: calc(var(--safe-bottom) + 80px);
+    overflow-x: hidden;
   }
   #grocery-view.visible { display: block; }
 
@@ -632,7 +633,12 @@
     border-bottom: 1px solid var(--rule);
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
+    touch-action: pan-y;
+    user-select: none;
+    -webkit-user-select: none;
+    transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1);
   }
+  .grocery-item.swiping { transition: none; }
   .grocery-check {
     width: 20px;
     height: 20px;
@@ -1883,10 +1889,52 @@ function renderGrocery() {
         <div class="grocery-check"><div class="grocery-check-inner"></div></div>
         <span class="grocery-text">${item.item} <span style="font-size:12px;color:var(--ink-mid);">${item.amount}</span></span>`;
       div.onclick = () => {
+        if (div.dataset.dragged) { delete div.dataset.dragged; return; }
         div.classList.toggle('checked');
         checkedItems[key] = div.classList.contains('checked');
         localStorage.setItem('groceryChecked', JSON.stringify(checkedItems));
       };
+
+      // Swipe to copy
+      const copyText = item.item + (item.amount ? ' — ' + item.amount : '');
+      let gStartX = 0, gStartY = 0, gDx = 0, gDragging = false, gDecided = false, gHoriz = false;
+      div.addEventListener('pointerdown', e => {
+        gStartX = e.clientX; gStartY = e.clientY; gDx = 0;
+        gDragging = true; gDecided = false; gHoriz = false;
+      });
+      div.addEventListener('pointermove', e => {
+        if (!gDragging) return;
+        gDx = e.clientX - gStartX;
+        const dy = e.clientY - gStartY;
+        if (!gDecided) {
+          if (Math.abs(gDx) < 6 && Math.abs(dy) < 6) return;
+          gDecided = true;
+          gHoriz = Math.abs(gDx) > Math.abs(dy);
+          if (!gHoriz) { gDragging = false; return; }
+          div.classList.add('swiping');
+          div.setPointerCapture(e.pointerId);
+        }
+        if (!gHoriz) return;
+        e.preventDefault();
+        div.style.transform = `translateX(${gDx}px)`;
+      });
+      div.addEventListener('pointerup', () => {
+        if (!gDragging) return;
+        gDragging = false;
+        div.classList.remove('swiping');
+        div.style.transform = '';
+        if (gHoriz && Math.abs(gDx) >= INGREDIENT_COPY_THRESHOLD) {
+          div.dataset.dragged = '1';
+          navigator.clipboard.writeText(copyText).then(() => showToast('Copied!'));
+        }
+        gDx = 0; gDecided = false; gHoriz = false;
+      });
+      div.addEventListener('pointercancel', () => {
+        gDragging = false;
+        div.classList.remove('swiping');
+        div.style.transform = '';
+      });
+
       container.appendChild(div);
     });
   });
