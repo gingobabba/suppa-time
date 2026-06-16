@@ -1962,6 +1962,7 @@ function copyGroceryList() {
 
 function showView(view) {
   currentView = view;
+  localStorage.setItem('lastView', view);
   document.getElementById('recipe-view').classList.remove('visible');
   document.getElementById('nav-back').classList.remove('visible');
   document.getElementById('nav-title').textContent = "suppahtime";
@@ -2023,6 +2024,8 @@ async function init() {
   } catch(e) {
     recipesData = [];
   }
+
+  showView(localStorage.getItem('lastView') || 'week');
 }
 
 init();
