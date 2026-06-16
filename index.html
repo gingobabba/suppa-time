@@ -265,24 +265,6 @@
   .day-item.rest .day-arrow { display: none; }
   .day-arrow svg { width: 14px; height: 14px; }
 
-  .day-refresh-btn {
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 36px;
-    height: 100%;
-    background: none;
-    border: none;
-    color: var(--ink-light);
-    cursor: pointer;
-    padding: 0;
-    -webkit-tap-highlight-color: transparent;
-    transition: color 0.15s, transform 0.25s;
-  }
-  .day-refresh-btn:active { color: var(--accent); transform: rotate(180deg); }
-  .day-refresh-btn svg { width: 15px; height: 15px; }
-
   .day-swap-btn {
     flex-shrink: 0;
     display: flex;
@@ -306,7 +288,7 @@
     background: var(--accent);
   }
   .day-item-action-left  { left: 0; }
-  .day-item-action-right { right: 0; }
+  .day-item-action-right { right: 0; background: var(--ink); }
   .swipe-add-btn {
     display: flex;
     flex-direction: column;
@@ -436,7 +418,7 @@
     border-bottom: 1px solid var(--rule);
   }
 
-  .ingredients-list { list-style: none; }
+  .ingredients-list { list-style: none; overflow: hidden; }
   .ingredient-row {
     display: flex;
     align-items: center;
@@ -444,28 +426,15 @@
     border-bottom: 1px solid var(--rule);
     font-size: 14px;
     gap: 12px;
+    touch-action: pan-y;
+    user-select: none;
+    -webkit-user-select: none;
+    transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1);
   }
   .ingredient-row:last-child { border-bottom: none; }
+  .ingredient-row.swiping { transition: none; }
   .ingredient-name { color: var(--ink); flex: 1; }
   .ingredient-amount { color: var(--ink-mid); font-size: 13px; text-align: right; flex-shrink: 0; }
-  .ingredient-copy-btn {
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 28px;
-    height: 28px;
-    margin: -4px -6px -4px 0;
-    background: none;
-    border: none;
-    color: var(--ink-light);
-    cursor: pointer;
-    padding: 0;
-    -webkit-tap-highlight-color: transparent;
-    transition: color 0.15s;
-  }
-  .ingredient-copy-btn svg { width: 14px; height: 14px; }
-  .ingredient-copy-btn.copied { color: var(--good); }
 
   .steps-list { list-style: none; }
   .step-row {
@@ -1278,10 +1247,12 @@ function randomSwap(dayIdx, event) {
   if (currentView === 'grocery') renderGrocery();
 }
 
-// Swipe-to-add-to-next-week
+// Swipe actions
 const NEXT_WEEK_ICON_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="12" y1="14" x2="12" y2="18"/><line x1="10" y1="16" x2="14" y2="16"/></svg>';
+const SHUFFLE_ICON_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-4.46"/></svg>';
 const SWIPE_REVEAL = 96;
 const SWIPE_THRESHOLD = 40;
+const INGREDIENT_COPY_THRESHOLD = 80;
 
 function showToast(msg) {
   const t = document.getElementById('toast');
@@ -1432,25 +1403,28 @@ function renderWeek() {
       } else {
         li.innerHTML = `
           <div class="day-item-action day-item-action-left"><button class="swipe-add-btn" aria-label="Add to next week">${NEXT_WEEK_ICON_SVG}<span>Next week</span></button></div>
-          <div class="day-item-action day-item-action-right"><button class="swipe-add-btn" aria-label="Add to next week">${NEXT_WEEK_ICON_SVG}<span>Next week</span></button></div>
+          <div class="day-item-action day-item-action-right"><button class="swipe-add-btn" aria-label="Shuffle">${SHUFFLE_ICON_SVG}<span>Shuffle</span></button></div>
           <div class="day-item swipeable">${bodyHtml}
-            <button class="day-refresh-btn" aria-label="Swap for random recipe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-4.46"/></svg></button>
             <div class="day-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg></div>
           </div>`;
 
         const content = li.querySelector('.day-item.swipeable');
-        content.querySelector('.day-refresh-btn').addEventListener('click', e => randomSwap(idx, e));
         content.addEventListener('click', () => {
           if (content.dataset.dragged) { delete content.dataset.dragged; return; }
           if (content.dataset.open) { closeSwipe(content); return; }
           closeOtherSwipes(content);
           openRecipe(idx);
         });
-        li.querySelectorAll('.swipe-add-btn').forEach(btn => btn.addEventListener('click', e => {
+        li.querySelector('.day-item-action-left .swipe-add-btn').addEventListener('click', e => {
           e.stopPropagation();
           addToNextWeek(idx);
           closeSwipe(content);
-        }));
+        });
+        li.querySelector('.day-item-action-right .swipe-add-btn').addEventListener('click', e => {
+          e.stopPropagation();
+          closeSwipe(content);
+          randomSwap(idx, e);
+        });
         attachSwipeHandlers(content);
       }
     }
@@ -1477,20 +1451,51 @@ function openRecipeFromList(idx, source = 'recipes') {
   renderRecipeView(m, m.title);
 }
 
-const COPY_ICON_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
-
-function attachIngredientCopyHandlers(containerId, ingredients) {
+function attachIngredientSwipeHandlers(containerId, ingredients) {
   const container = document.getElementById(containerId);
-  container.querySelectorAll('.ingredient-copy-btn').forEach((btn, i) => {
-    btn.onclick = (e) => {
-      e.stopPropagation();
-      const ing = ingredients[i];
-      const text = ing.amount ? `${ing.item} — ${ing.amount}` : ing.item;
-      navigator.clipboard.writeText(text).then(() => {
-        btn.classList.add('copied');
-        setTimeout(() => btn.classList.remove('copied'), 1200);
-      });
-    };
+  container.querySelectorAll('.ingredient-row').forEach((row, i) => {
+    let startX = 0, startY = 0, dx = 0, dragging = false, decided = false, horizontal = false;
+
+    row.addEventListener('pointerdown', e => {
+      startX = e.clientX; startY = e.clientY; dx = 0;
+      dragging = true; decided = false; horizontal = false;
+    });
+
+    row.addEventListener('pointermove', e => {
+      if (!dragging) return;
+      dx = e.clientX - startX;
+      const dy = e.clientY - startY;
+      if (!decided) {
+        if (Math.abs(dx) < 6 && Math.abs(dy) < 6) return;
+        decided = true;
+        horizontal = Math.abs(dx) > Math.abs(dy);
+        if (!horizontal) { dragging = false; return; }
+        row.classList.add('swiping');
+        row.setPointerCapture(e.pointerId);
+      }
+      if (!horizontal) return;
+      e.preventDefault();
+      row.style.transform = `translateX(${dx}px)`;
+    });
+
+    row.addEventListener('pointerup', () => {
+      if (!dragging) return;
+      dragging = false;
+      row.classList.remove('swiping');
+      row.style.transform = '';
+      if (horizontal && Math.abs(dx) >= INGREDIENT_COPY_THRESHOLD) {
+        const ing = ingredients[i];
+        const text = ing.amount ? `${ing.item} — ${ing.amount}` : ing.item;
+        navigator.clipboard.writeText(text).then(() => showToast('Copied!'));
+      }
+      dx = 0; decided = false; horizontal = false;
+    });
+
+    row.addEventListener('pointercancel', () => {
+      dragging = false;
+      row.classList.remove('swiping');
+      row.style.transform = '';
+    });
   });
 }
 
@@ -1526,9 +1531,9 @@ function renderRecipeView(m, navLabel) {
     if (m.ingredients && m.ingredients.length) {
       document.getElementById('r-substack-ingredients').innerHTML =
         m.ingredients.map(i =>
-          `<li class="ingredient-row"><span class="ingredient-name">${i.item}</span><span class="ingredient-amount">${i.amount}</span><button class="ingredient-copy-btn" aria-label="Copy ingredient">${COPY_ICON_SVG}</button></li>`
+          `<li class="ingredient-row"><span class="ingredient-name">${i.item}</span><span class="ingredient-amount">${i.amount}</span></li>`
         ).join('');
-      attachIngredientCopyHandlers('r-substack-ingredients', m.ingredients);
+      attachIngredientSwipeHandlers('r-substack-ingredients', m.ingredients);
       ingSection.style.display = 'block';
     } else {
       ingSection.style.display = 'none';
@@ -1549,9 +1554,9 @@ function renderRecipeView(m, navLabel) {
   } else {
     document.getElementById('r-ingredients').innerHTML =
       (m.ingredients || []).map(i =>
-        `<li class="ingredient-row"><span class="ingredient-name">${i.item}</span><span class="ingredient-amount">${i.amount}</span><button class="ingredient-copy-btn" aria-label="Copy ingredient">${COPY_ICON_SVG}</button></li>`
+        `<li class="ingredient-row"><span class="ingredient-name">${i.item}</span><span class="ingredient-amount">${i.amount}</span></li>`
       ).join('');
-    attachIngredientCopyHandlers('r-ingredients', m.ingredients || []);
+    attachIngredientSwipeHandlers('r-ingredients', m.ingredients || []);
     document.getElementById('r-steps').innerHTML =
       (m.steps || []).map((s, i) =>
         `<li class="step-row"><span class="step-num">${i+1}</span><span class="step-text">${s}</span></li>`
