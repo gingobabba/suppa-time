@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 """Weekly meal plan generator — runs via GitHub Actions every Sunday."""
 
+from __future__ import annotations
+
+import difflib
 import json
 import os
+import re
 import sys
 from datetime import date, timedelta
 from pathlib import Path
@@ -162,9 +166,30 @@ Recipe titles must match exactly from the eligible list above.
     return json.loads(text)
 
 
+def _normalize_title(title: str) -> str:
+    """Loosen punctuation/whitespace/case so near-identical titles still match
+    (e.g. Claude returning 'Sheet Pan Salmon...' for 'Sheet-Pan Salmon...')."""
+    return re.sub(r"[^a-z0-9]+", " ", title.lower()).strip()
+
+
+def _find_recipe(title: str, all_recipes: list, recipe_map: dict, norm_map: dict) -> dict | None:
+    recipe = recipe_map.get(title)
+    if recipe:
+        return recipe
+    recipe = norm_map.get(_normalize_title(title))
+    if recipe:
+        return recipe
+    close = difflib.get_close_matches(title, list(recipe_map.keys()), n=1, cutoff=0.75)
+    if close:
+        print(f"Fuzzy-matched {title!r} -> {close[0]!r}")
+        return recipe_map[close[0]]
+    return None
+
+
 def enrich(schedule: dict, all_recipes: list) -> dict:
     """Swap recipe_title references for full recipe objects from recipes.json."""
     recipe_map = {r["title"]: r for r in all_recipes}
+    norm_map = {_normalize_title(r["title"]): r for r in all_recipes}
     full_days = []
     for day in schedule["days"]:
         title = day.get("recipe_title")
@@ -177,9 +202,7 @@ def enrich(schedule: dict, all_recipes: list) -> dict:
                 "rest_day_label": day.get("rest_day_label", "Takeout or leftovers"),
             })
         else:
-            recipe = recipe_map.get(title) or next(
-                (r for r in all_recipes if r["title"].lower() == title.lower()), None
-            )
+            recipe = _find_recipe(title, all_recipes, recipe_map, norm_map)
             if not recipe:
                 raise ValueError(f"Recipe not found in recipes.json: {title!r}")
             full_days.append({
@@ -213,15 +236,24 @@ def save(plan: dict, week_start: date):
     print(f"Saved plan for week of {s}")
 
 
-def main():
-    week_start = next_monday()
-    print(f"Generating plan for week of {week_start}")
+def missing_weeks() -> list[date]:
+    """Every Monday from this week's through next_monday() that has no plan file
+    yet. Starting from *this* week (not just next Monday) means a run that
+    failed last time gets backfilled automatically on the following run,
+    instead of that week being skipped forever."""
+    today = date.today()
+    start = today - timedelta(days=today.weekday())
+    target = next_monday()
+    out = []
+    d = start
+    while d <= target:
+        if not (PLANS_DIR / f"{d.isoformat()}.json").exists():
+            out.append(d)
+        d += timedelta(days=7)
+    return out
 
-    if (PLANS_DIR / f"{week_start.isoformat()}.json").exists():
-        print("Plan already exists — skipping.")
-        sys.exit(0)
 
-    recipes = json.loads((ROOT / "recipes.json").read_text())
+def generate_week(week_start: date, recipes: list) -> dict:
     used = recently_used(weeks=3)
     pasta_ok = not pasta_used_this_month(week_start)
     eligible = filter_eligible(recipes, week_start, used)
@@ -229,11 +261,39 @@ def main():
     print(f"{len(recipes)} total recipes, {len(eligible)} eligible, {len(used)} recently used")
     print(f"Pasta allowed this week: {pasta_ok}")
 
-    schedule = call_claude(week_start, eligible, pasta_ok)
-    plan = enrich(schedule, recipes)
+    last_err: Exception | None = None
+    for attempt in range(1, 4):
+        try:
+            schedule = call_claude(week_start, eligible, pasta_ok)
+            plan = enrich(schedule, recipes)
+            assert len(plan["days"]) == 7, f"Expected 7 days, got {len(plan['days'])}"
+            return plan
+        except (ValueError, AssertionError, json.JSONDecodeError) as e:
+            last_err = e
+            print(f"Attempt {attempt} failed: {e}")
+    raise RuntimeError(f"Giving up on week of {week_start} after 3 attempts: {last_err}")
 
-    assert len(plan["days"]) == 7, f"Expected 7 days, got {len(plan['days'])}"
-    save(plan, week_start)
+
+def main():
+    weeks = missing_weeks()
+    if not weeks:
+        print("No missing weeks — nothing to do.")
+        return
+
+    recipes = json.loads((ROOT / "recipes.json").read_text())
+    failures = []
+    for week_start in weeks:
+        print(f"Generating plan for week of {week_start}")
+        try:
+            plan = generate_week(week_start, recipes)
+            save(plan, week_start)
+        except Exception as e:
+            print(f"ERROR generating week of {week_start}: {e}")
+            failures.append(week_start)
+
+    if failures:
+        print(f"Failed weeks: {[w.isoformat() for w in failures]}")
+        sys.exit(1)
     print("Done.")
 
 
