@@ -1,0 +1,368 @@
+{
+  "week_of": "2026-09-14",
+  "updated": "2026-09-13",
+  "days": [
+    {
+      "date": "2026-09-14",
+      "day": "Monday",
+      "meal": {
+        "title": "Beef Enchilada Casserole",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/beef-enchilada-casserole",
+        "chef": "Caroline Chambers",
+        "time_minutes": 45,
+        "servings": 6,
+        "tags": [
+          "beef",
+          "casserole",
+          "mexican-inspired",
+          "weeknight"
+        ],
+        "ingredients": [
+          {
+            "item": "yellow onion (medium)",
+            "amount": "1, finely chopped"
+          },
+          {
+            "item": "red bell pepper (large)",
+            "amount": "1, finely chopped"
+          },
+          {
+            "item": "garlic cloves",
+            "amount": "4, minced"
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "ground beef",
+            "amount": "1 pound"
+          },
+          {
+            "item": "cauliflower rice (frozen or fresh)",
+            "amount": "1 pound"
+          },
+          {
+            "item": "taco seasoning",
+            "amount": "1 tablespoon plus 2 teaspoons"
+          },
+          {
+            "item": "kosher salt",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "spinach or kale",
+            "amount": "2 big handfuls"
+          },
+          {
+            "item": "all-purpose flour",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "diced tomatoes (28-ounce can)",
+            "amount": "1 can"
+          },
+          {
+            "item": "corn tortillas (6- to 8-inch)",
+            "amount": "6"
+          },
+          {
+            "item": "cheddar or Mexican cheese (grated/shredded)",
+            "amount": "1 packed cup"
+          }
+        ],
+        "steps": [],
+        "notes": ""
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-09-15",
+      "day": "Tuesday",
+      "meal": {
+        "title": "Curry Roasted Chicken and Cauliflower Salad",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/curry-roasted-chicken-and-cauliflower",
+        "chef": "Caroline Chambers",
+        "time_minutes": 45,
+        "servings": 4,
+        "tags": [
+          "chicken",
+          "salad",
+          "cauliflower",
+          "sheet-pan",
+          "weeknight",
+          "curry"
+        ],
+        "ingredients": [
+          {
+            "item": "cauliflower head, cut into 1-inch flat florets",
+            "amount": "1"
+          },
+          {
+            "item": "small red onion, thinly sliced",
+            "amount": "1"
+          },
+          {
+            "item": "boneless skinless chicken thighs",
+            "amount": "1 1/2 pounds"
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "amount": "1/4 cup"
+          },
+          {
+            "item": "kosher salt and black pepper",
+            "amount": "to taste"
+          },
+          {
+            "item": "smoked paprika",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "curry powder, divided",
+            "amount": "2 teaspoons"
+          },
+          {
+            "item": "ground coriander",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "garlic powder",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "mayonnaise",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "Greek yogurt",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "lime juice",
+            "amount": "juice of 2 limes"
+          },
+          {
+            "item": "water",
+            "amount": "2 tablespoons"
+          },
+          {
+            "item": "honey",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "small honeycrisp apple, cut into batons",
+            "amount": "1"
+          },
+          {
+            "item": "dates, pitted and chopped (or 1/3 cup dried cranberries or golden raisins)",
+            "amount": "5"
+          },
+          {
+            "item": "arugula (5-oz container)",
+            "amount": "1"
+          },
+          {
+            "item": "Parmesan, shaved with a vegetable peeler",
+            "amount": "4 ounces"
+          },
+          {
+            "item": "roasted salted pistachios, sunflower seeds, pepitas, or almonds",
+            "amount": "1/4 cup"
+          }
+        ],
+        "steps": [],
+        "notes": ""
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-09-16",
+      "day": "Wednesday",
+      "meal": {
+        "title": "Butternut Squash Farro-tto",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/butternut-squash-farro-tto",
+        "chef": "Caroline Chambers",
+        "time_minutes": 45,
+        "servings": 6,
+        "tags": [
+          "vegetarian",
+          "farro",
+          "squash",
+          "weeknight",
+          "one-pot"
+        ],
+        "ingredients": [
+          {
+            "item": "extra-virgin olive oil",
+            "amount": "2 tablespoons"
+          },
+          {
+            "item": "yellow onion (large)",
+            "amount": "1, diced"
+          },
+          {
+            "item": "farro",
+            "amount": "1 1/2 cups"
+          },
+          {
+            "item": "garlic cloves",
+            "amount": "4, minced"
+          },
+          {
+            "item": "dried oregano",
+            "amount": "1 1/2 teaspoons"
+          },
+          {
+            "item": "low-sodium vegetable broth",
+            "amount": "1 quart (4 cups)"
+          },
+          {
+            "item": "butternut squash (chopped)",
+            "amount": "3 cups (~20 ounces)"
+          },
+          {
+            "item": "cauliflower rice",
+            "amount": "1 cup (optional)"
+          },
+          {
+            "item": "kosher salt",
+            "amount": "to taste"
+          },
+          {
+            "item": "garlic powder",
+            "amount": "1/2 teaspoon"
+          },
+          {
+            "item": "spinach (chopped)",
+            "amount": "4 cups"
+          },
+          {
+            "item": "lemon juice",
+            "amount": "juice of 1 lemon"
+          },
+          {
+            "item": "Parmesan cheese (grated)",
+            "amount": "1 cup"
+          },
+          {
+            "item": "Gruy\u00e8re cheese (shredded)",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "frozen broccoli",
+            "amount": "1 cup"
+          },
+          {
+            "item": "black pepper (freshly grated)",
+            "amount": "1/2 teaspoon"
+          }
+        ],
+        "steps": [],
+        "notes": "Peas substituted with frozen broccoli."
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-09-17",
+      "day": "Thursday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Leftovers or takeout"
+    },
+    {
+      "date": "2026-09-18",
+      "day": "Friday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Takeout or leftovers"
+    },
+    {
+      "date": "2026-09-19",
+      "day": "Saturday",
+      "meal": {
+        "title": "Rotisserie-ish Chicken with Schmaltzy Cabbage",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/rotisserie-ish-chicken-with-schmaltzy",
+        "chef": "Caroline Chambers",
+        "time_minutes": 90,
+        "servings": 4,
+        "tags": [
+          "chicken",
+          "whole-chicken",
+          "cabbage",
+          "sweet-potato",
+          "sheet-pan",
+          "weekend"
+        ],
+        "ingredients": [
+          {
+            "item": "green cabbage head (~2 lbs), cored and thinly sliced",
+            "amount": "1"
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "amount": "as needed"
+          },
+          {
+            "item": "kosher salt",
+            "amount": "to taste"
+          },
+          {
+            "item": "brown sugar",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "smoked paprika",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "chili powder",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "ground black pepper",
+            "amount": "1/2 teaspoon"
+          },
+          {
+            "item": "whole chicken (3 1/2 to 4 pounds)",
+            "amount": "1"
+          },
+          {
+            "item": "medium sweet potatoes",
+            "amount": "4"
+          },
+          {
+            "item": "apple cider vinegar or lemon juice",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "unsalted butter",
+            "amount": "4 tablespoons"
+          }
+        ],
+        "steps": [],
+        "notes": "Whole chicken time varies by bird size and oven \u2014 start checking at 45 minutes."
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-09-20",
+      "day": "Sunday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Leftovers or takeout"
+    }
+  ]
+}
