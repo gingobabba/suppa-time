@@ -1,0 +1,500 @@
+{
+  "week_of": "2026-09-21",
+  "updated": "2026-09-20",
+  "days": [
+    {
+      "date": "2026-09-21",
+      "day": "Monday",
+      "meal": {
+        "title": "Saucy Chicken and Cabbage Satay Bowls",
+        "source": "What to Cook When You Don't Feel Like Cooking",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/saucy-chicken-and-cabbage-satay-bowls",
+        "chef": "Caroline Chambers",
+        "time_minutes": 30,
+        "servings": 4,
+        "tags": [
+          "chicken",
+          "asian",
+          "bowls",
+          "quick",
+          "peanut",
+          "cabbage"
+        ],
+        "ingredients": [
+          {
+            "item": "sesame oil or neutral cooking oil (e.g. olive oil), divided",
+            "amount": "2 tablespoons"
+          },
+          {
+            "item": "coleslaw mix or shredded cabbage",
+            "amount": "2 (10\u201312 oz) bags"
+          },
+          {
+            "item": "sliced mushrooms (any kind), finely chopped",
+            "amount": "1 (8 oz) container"
+          },
+          {
+            "item": "scallions, roots trimmed, thinly sliced",
+            "amount": "1 bunch"
+          },
+          {
+            "item": "ground chicken",
+            "amount": "1 pound"
+          },
+          {
+            "item": "kosher salt",
+            "amount": "to taste"
+          },
+          {
+            "item": "coconut milk",
+            "amount": "\u2154 can"
+          },
+          {
+            "item": "cilantro (leaves and stems), finely chopped",
+            "amount": "1 bunch (about 1 packed cup)"
+          },
+          {
+            "item": "fresh ginger, grated or minced (or \u00bc tsp ground ginger)",
+            "amount": "1-inch piece"
+          },
+          {
+            "item": "garlic cloves, grated or minced (or \u00bc tsp garlic powder)",
+            "amount": "2"
+          },
+          {
+            "item": "low-sodium soy sauce",
+            "amount": "3 tablespoons"
+          },
+          {
+            "item": "creamy peanut butter",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "fish sauce",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "sriracha",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "rice vinegar or juice of \u00bd lime",
+            "amount": "2 teaspoons"
+          },
+          {
+            "item": "honey",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "curry powder",
+            "amount": "\u00be teaspoon"
+          },
+          {
+            "item": "ground cumin",
+            "amount": "\u00bc teaspoon"
+          }
+        ],
+        "steps": [],
+        "notes": "Avocado oil subbed with olive oil. Serves 4 with rice, 3 without. Quick weeknight bowl."
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-09-22",
+      "day": "Tuesday",
+      "meal": {
+        "title": "Lemon Parm Chicken, Quinoa, and Kale",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/lemon-parm-chicken-quinoa-and-kale",
+        "chef": "Caroline Chambers",
+        "time_minutes": 35,
+        "servings": 6,
+        "tags": [
+          "chicken",
+          "salad",
+          "kale",
+          "quinoa",
+          "quick",
+          "weeknight"
+        ],
+        "ingredients": [
+          {
+            "item": "extra-virgin olive oil",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "lemon juice (about 2 small lemons)",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "Dijon mustard (omit if disliked)",
+            "amount": "1 heaping tablespoon"
+          },
+          {
+            "item": "honey",
+            "amount": "2 teaspoons"
+          },
+          {
+            "item": "kosher salt",
+            "amount": "1/2 teaspoon"
+          },
+          {
+            "item": "dried thyme or oregano",
+            "amount": "1/4 teaspoon"
+          },
+          {
+            "item": "garlic powder",
+            "amount": "1/4 teaspoon"
+          },
+          {
+            "item": "black pepper",
+            "amount": "several grinds"
+          },
+          {
+            "item": "uncooked quinoa",
+            "amount": "1 cup"
+          },
+          {
+            "item": "water or stock",
+            "amount": "1 1/2 cups"
+          },
+          {
+            "item": "chopped kale (16-oz bag)",
+            "amount": "1"
+          },
+          {
+            "item": "kosher salt and black pepper",
+            "amount": "to taste"
+          },
+          {
+            "item": "rotisserie chicken (breast meat only, shredded)",
+            "amount": "1"
+          },
+          {
+            "item": "shredded carrots (10-oz bag)",
+            "amount": "1"
+          },
+          {
+            "item": "Parmesan, grated",
+            "amount": "1 cup (4 oz)"
+          },
+          {
+            "item": "golden raisins or dried cranberries",
+            "amount": "1 cup"
+          },
+          {
+            "item": "roasted salted almonds, pepitas, or pistachios, chopped",
+            "amount": "1 cup"
+          },
+          {
+            "item": "fresh soft herbs \u2014 basil, parsley, or cilantro (optional)",
+            "amount": "1 cup"
+          }
+        ],
+        "steps": [],
+        "notes": "Serves 4\u20136. Consider doubling the quinoa and freezing the extra for future use."
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-09-23",
+      "day": "Wednesday",
+      "meal": {
+        "title": "Happy Bowls",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/happy-bowls",
+        "chef": "Caroline Chambers",
+        "time_minutes": 55,
+        "servings": 4,
+        "tags": [
+          "vegetarian",
+          "vegan",
+          "bowls",
+          "sheet-pan",
+          "cauliflower",
+          "sweet-potato",
+          "beet",
+          "weekend"
+        ],
+        "ingredients": [
+          {
+            "item": "roasted cashews (sub: 1 can cannellini beans + 1 tbsp olive oil)",
+            "amount": "2 cups"
+          },
+          {
+            "item": "fresh soft green herbs (basil, cilantro, or dill)",
+            "amount": "1 cup"
+          },
+          {
+            "item": "apple cider vinegar",
+            "amount": "2 tablespoons"
+          },
+          {
+            "item": "hot water, plus more as needed",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "small garlic clove (or 1/8 tsp garlic powder)",
+            "amount": "1"
+          },
+          {
+            "item": "kosher salt",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "extra large sweet potato, 1-inch cubed",
+            "amount": "1"
+          },
+          {
+            "item": "large beet, 1-inch cubed",
+            "amount": "1"
+          },
+          {
+            "item": "head of cauliflower, cut into thin florets",
+            "amount": "1"
+          },
+          {
+            "item": "small red onion, thinly sliced",
+            "amount": "1"
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "amount": "to coat"
+          },
+          {
+            "item": "kosher salt and black pepper",
+            "amount": "to taste"
+          },
+          {
+            "item": "garlic powder, onion powder, smoked paprika",
+            "amount": "a few shakes each"
+          },
+          {
+            "item": "cooked grain (farro, rice, or similar \u2014 about 1 to 1 1/2 cups dry)",
+            "amount": "as needed"
+          },
+          {
+            "item": "fresh spinach or other greens, chopped",
+            "amount": "a few handfuls"
+          },
+          {
+            "item": "optional toppings",
+            "amount": "crumbled feta, hard-boiled eggs, pickled red onions, roasted nuts or seeds, extra fresh herbs"
+          }
+        ],
+        "steps": [],
+        "notes": "Cashew allergy sub: replace cashews with 1 can cannellini beans + 1 tbsp olive oil in the sauce."
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-09-24",
+      "day": "Thursday",
+      "meal": {
+        "title": "Sheet Pan Spiced Chicken and Carrots with Lemon Yogurt Sauce",
+        "source": "Jenn Lueke",
+        "source_type": "online",
+        "source_url": "https://jenneatsgoood.com/sheet-pan-spiced-chicken-and-carrots/",
+        "chef": "Jenn Lueke",
+        "time_minutes": 45,
+        "servings": 4,
+        "tags": [
+          "gluten-free"
+        ],
+        "ingredients": [
+          {
+            "item": "2 teaspoons kosher salt",
+            "amount": ""
+          },
+          {
+            "item": "1 teaspoon ground black pepper",
+            "amount": ""
+          },
+          {
+            "item": "2 teaspoons garlic powder",
+            "amount": ""
+          },
+          {
+            "item": "1 teaspoon dried oregano",
+            "amount": ""
+          },
+          {
+            "item": "2 teaspoons smoked paprika",
+            "amount": ""
+          },
+          {
+            "item": "2 tablespoons olive oil, (divided)",
+            "amount": ""
+          },
+          {
+            "item": "1 pound carrots, peeled and cut into 1/4-inch slices",
+            "amount": ""
+          },
+          {
+            "item": "1 1/2 pounds boneless, skinless chicken breast",
+            "amount": ""
+          },
+          {
+            "item": "1 lemon, halved",
+            "amount": ""
+          },
+          {
+            "item": "5 ounces plain Greek yogurt (sub for dairy-free as needed)",
+            "amount": ""
+          },
+          {
+            "item": "2 tablespoons finely chopped cilantro, additional for garnishing",
+            "amount": ""
+          },
+          {
+            "item": "1 tablespoon olive oil",
+            "amount": ""
+          },
+          {
+            "item": "1/2 teaspoon ground black pepper",
+            "amount": ""
+          },
+          {
+            "item": "1/2 teaspoon garlic powder",
+            "amount": ""
+          },
+          {
+            "item": "1/2 teaspoon kosher salt",
+            "amount": ""
+          },
+          {
+            "item": "1 cup jasmine rice, cooked for serving",
+            "amount": ""
+          }
+        ],
+        "steps": [
+          "Preheat the oven to 400\u00b0F. Prepare a large sheet pan.",
+          "Make the spice mix: combine the salt, black pepper, garlic powder, oregano, and smoked paprika in a bowl, then evenly separate into two small bowls.",
+          "In a large bowl, toss to coat the carrots in 1 tablespoon of the oil and one bowl (half) of the spice mix. Transfer to the sheet pan.",
+          "Add the chicken to the same bowl with the remaining tablespoon of olive oil and the remaining spice mix. Toss to coat. Transfer to the sheet pan, spreading out the chicken and carrots so nothing is overlapping. Add the lemon halves, face down, on each end of the sheet pan. Bake until the carrots are lightly crisp on the outside and fork tender, and the chicken reaches an internal temperature of 165\u00b0F, 25 to 30 minutes.",
+          "While the chicken bakes, prepare the rice according to package instructions.",
+          "Prepare the yogurt sauce: add the yogurt, cilantro, olive oil, black pepper, garlic powder, and salt to a bowl. Squeeze the roasted lemon halves into the bowl, then mix until evenly combined.",
+          "To serve, plate even servings of the cooked rice and top with carrots and chicken. Add a dollop of the yogurt sauce on top and garnish with chopped cilantro."
+        ],
+        "notes": ": Lemon: A fresh lemon brings out the bold Mediterranean flavors of this dish. The leftover lemon half can be used to garnish when serving or juiced to help thin out the yogurt sauce. In a pinch? Opt for a lime or orange. Carrots: These carrots are packed with flavor and juices cooking alongside the chicken and evenly coated with the spice mix. If you&#8217;re low on time, you could also use a bag of baby carrots, or pre-sliced. Yogurt: Every good spiced sheet pan needs a cooling, creamy serving"
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-09-25",
+      "day": "Friday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Takeout or leftovers"
+    },
+    {
+      "date": "2026-09-26",
+      "day": "Saturday",
+      "meal": {
+        "title": "Sheet-Pan Salmon with Jammy Tomatoes and Peppers and Polenta",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/sheet-pan-salmon-with-jammy-tomatoes",
+        "chef": "Caroline Chambers",
+        "time_minutes": 40,
+        "servings": 4,
+        "tags": [
+          "salmon",
+          "sheet-pan",
+          "polenta",
+          "tomato",
+          "bell-pepper",
+          "weeknight"
+        ],
+        "ingredients": [
+          {
+            "item": "orange bell pepper, thinly sliced",
+            "amount": "1"
+          },
+          {
+            "item": "red bell pepper, thinly sliced",
+            "amount": "1"
+          },
+          {
+            "item": "garlic cloves, smashed",
+            "amount": "2"
+          },
+          {
+            "item": "lemon, cut in half",
+            "amount": "1"
+          },
+          {
+            "item": "cherry or grape tomatoes",
+            "amount": "1 pound"
+          },
+          {
+            "item": "olive oil, plus more for drizzling",
+            "amount": "3 tablespoons"
+          },
+          {
+            "item": "kosher salt",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "freshly ground black pepper",
+            "amount": "to taste"
+          },
+          {
+            "item": "smoked paprika",
+            "amount": "1/2 teaspoon"
+          },
+          {
+            "item": "salmon fillets (6-ounce)",
+            "amount": "4"
+          },
+          {
+            "item": "fresh basil leaves, sliced into ribbons",
+            "amount": "1 small bunch"
+          },
+          {
+            "item": "unsalted butter",
+            "amount": "2 tablespoons"
+          },
+          {
+            "item": "low-sodium chicken broth",
+            "amount": "4 cups"
+          },
+          {
+            "item": "quick-cooking polenta",
+            "amount": "1 cup"
+          },
+          {
+            "item": "unsalted butter",
+            "amount": "3 tablespoons"
+          },
+          {
+            "item": "sharp white Cheddar cheese, grated",
+            "amount": "1 cup"
+          },
+          {
+            "item": "kosher salt",
+            "amount": "1 teaspoon"
+          }
+        ],
+        "steps": [],
+        "notes": "Vegetarian: swap salmon for a can or two of drained, rinsed chickpeas roasted with the veg. Dairy-free: DF cheddar and plant butter in the polenta, or skip cheese/polenta and serve with rice."
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-09-27",
+      "day": "Sunday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Takeout or leftovers"
+    }
+  ]
+}
