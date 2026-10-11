@@ -1,0 +1,482 @@
+{
+  "week_of": "2026-10-12",
+  "updated": "2026-10-11",
+  "days": [
+    {
+      "date": "2026-10-12",
+      "day": "Monday",
+      "meal": {
+        "title": "Beef Enchilada Casserole",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/beef-enchilada-casserole",
+        "chef": "Caroline Chambers",
+        "time_minutes": 45,
+        "servings": 6,
+        "tags": [
+          "beef",
+          "casserole",
+          "mexican-inspired",
+          "weeknight"
+        ],
+        "ingredients": [
+          {
+            "item": "yellow onion (medium)",
+            "amount": "1, finely chopped"
+          },
+          {
+            "item": "red bell pepper (large)",
+            "amount": "1, finely chopped"
+          },
+          {
+            "item": "garlic cloves",
+            "amount": "4, minced"
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "ground beef",
+            "amount": "1 pound"
+          },
+          {
+            "item": "cauliflower rice (frozen or fresh)",
+            "amount": "1 pound"
+          },
+          {
+            "item": "taco seasoning",
+            "amount": "1 tablespoon plus 2 teaspoons"
+          },
+          {
+            "item": "kosher salt",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "spinach or kale",
+            "amount": "2 big handfuls"
+          },
+          {
+            "item": "all-purpose flour",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "diced tomatoes (28-ounce can)",
+            "amount": "1 can"
+          },
+          {
+            "item": "corn tortillas (6- to 8-inch)",
+            "amount": "6"
+          },
+          {
+            "item": "cheddar or Mexican cheese (grated/shredded)",
+            "amount": "1 packed cup"
+          }
+        ],
+        "steps": [],
+        "notes": ""
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-10-13",
+      "day": "Tuesday",
+      "meal": {
+        "title": "Saucy Ground Beef Teriyaki Bowls",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/saucy-ground-beef-teriyaki-bowls",
+        "chef": "Caroline Chambers",
+        "time_minutes": 30,
+        "servings": 4,
+        "tags": [
+          "beef",
+          "rice",
+          "bowls",
+          "asian-inspired",
+          "quick",
+          "weeknight"
+        ],
+        "ingredients": [
+          {
+            "item": "low-sodium soy sauce or coconut aminos",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "cornstarch, arrowroot, or tapioca powder",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "water",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "sesame oil",
+            "amount": "2 tablespoons"
+          },
+          {
+            "item": "coconut sugar",
+            "amount": "1/4 cup"
+          },
+          {
+            "item": "garlic powder",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "ground ginger",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "small onion, finely diced",
+            "amount": "1"
+          },
+          {
+            "item": "garlic cloves, mashed",
+            "amount": "3"
+          },
+          {
+            "item": "red bell pepper, diced",
+            "amount": "1"
+          },
+          {
+            "item": "broccoli florets, finely diced",
+            "amount": "1 1/2 cups"
+          },
+          {
+            "item": "shredded carrots",
+            "amount": "3/4 cup"
+          },
+          {
+            "item": "olive oil",
+            "amount": "2 tablespoons"
+          },
+          {
+            "item": "ground beef (90/10)",
+            "amount": "1 pound"
+          },
+          {
+            "item": "jasmine rice, cooked per package instructions",
+            "amount": "1 cup"
+          },
+          {
+            "item": "garnishes",
+            "amount": "sliced green onions, sesame seeds"
+          }
+        ],
+        "steps": [],
+        "notes": "Avocado oil substituted with olive oil."
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-10-14",
+      "day": "Wednesday",
+      "meal": {
+        "title": "Butternut Squash Farro-tto",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/butternut-squash-farro-tto",
+        "chef": "Caroline Chambers",
+        "time_minutes": 45,
+        "servings": 6,
+        "tags": [
+          "vegetarian",
+          "farro",
+          "squash",
+          "weeknight",
+          "one-pot"
+        ],
+        "ingredients": [
+          {
+            "item": "extra-virgin olive oil",
+            "amount": "2 tablespoons"
+          },
+          {
+            "item": "yellow onion (large)",
+            "amount": "1, diced"
+          },
+          {
+            "item": "farro",
+            "amount": "1 1/2 cups"
+          },
+          {
+            "item": "garlic cloves",
+            "amount": "4, minced"
+          },
+          {
+            "item": "dried oregano",
+            "amount": "1 1/2 teaspoons"
+          },
+          {
+            "item": "low-sodium vegetable broth",
+            "amount": "1 quart (4 cups)"
+          },
+          {
+            "item": "butternut squash (chopped)",
+            "amount": "3 cups (~20 ounces)"
+          },
+          {
+            "item": "cauliflower rice",
+            "amount": "1 cup (optional)"
+          },
+          {
+            "item": "kosher salt",
+            "amount": "to taste"
+          },
+          {
+            "item": "garlic powder",
+            "amount": "1/2 teaspoon"
+          },
+          {
+            "item": "spinach (chopped)",
+            "amount": "4 cups"
+          },
+          {
+            "item": "lemon juice",
+            "amount": "juice of 1 lemon"
+          },
+          {
+            "item": "Parmesan cheese (grated)",
+            "amount": "1 cup"
+          },
+          {
+            "item": "Gruy\u00e8re cheese (shredded)",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "frozen broccoli",
+            "amount": "1 cup"
+          },
+          {
+            "item": "black pepper (freshly grated)",
+            "amount": "1/2 teaspoon"
+          }
+        ],
+        "steps": [],
+        "notes": "Peas substituted with frozen broccoli."
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-10-15",
+      "day": "Thursday",
+      "meal": {
+        "title": "Crispy Farro with Sausage and Asparagus",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/crispy-farro-with-sausage-and-asparagus",
+        "chef": "Caroline Chambers",
+        "time_minutes": 40,
+        "servings": 4,
+        "tags": [
+          "sausage",
+          "farro",
+          "asparagus",
+          "one-pot",
+          "weeknight"
+        ],
+        "ingredients": [
+          {
+            "item": "pearled farro, uncooked (or 3 cups pre-cooked)",
+            "amount": "1 1/2 cups"
+          },
+          {
+            "item": "kosher salt",
+            "amount": "to taste"
+          },
+          {
+            "item": "mild or hot Italian sausage, casings removed",
+            "amount": "1 pound"
+          },
+          {
+            "item": "scallions (1 bunch), trimmed and thinly sliced on a diagonal, dark green parts kept separate",
+            "amount": ""
+          },
+          {
+            "item": "asparagus (1 bunch), trimmed and thinly sliced on a diagonal into 1/2-inch pieces",
+            "amount": ""
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "amount": "1 tablespoon, plus more as needed"
+          },
+          {
+            "item": "red wine vinegar",
+            "amount": "1 tablespoon, plus more to taste"
+          }
+        ],
+        "steps": [],
+        "notes": "If you can't find pearled farro, cooking time will be longer \u2014 see source link for guidance."
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-10-16",
+      "day": "Friday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Takeout or leftovers"
+    },
+    {
+      "date": "2026-10-17",
+      "day": "Saturday",
+      "meal": {
+        "title": "No-Stir Mushroom Risotto",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/no-stir-mushroom-risotto",
+        "chef": "Caroline Chambers",
+        "time_minutes": 80,
+        "servings": 6,
+        "tags": [
+          "vegetarian",
+          "risotto",
+          "mushroom",
+          "one-pot",
+          "weekend"
+        ],
+        "ingredients": [
+          {
+            "item": "medium yellow onion, thinly sliced",
+            "amount": "1"
+          },
+          {
+            "item": "mushrooms (any kind), sliced",
+            "amount": "1 pound"
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "amount": "1/4 cup"
+          },
+          {
+            "item": "kosher salt and black pepper",
+            "amount": "to taste"
+          },
+          {
+            "item": "short grain brown rice",
+            "amount": "1 1/2 cups"
+          },
+          {
+            "item": "beef stock (or water + beef-flavored Better Than Bouillon), divided",
+            "amount": "6 1/2 to 7 cups"
+          },
+          {
+            "item": "white wine (not sweet; or 1/4 cup red)",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "lemon juice",
+            "amount": "juice of 1/2 lemon"
+          },
+          {
+            "item": "Gruy\u00e8re, grated",
+            "amount": "6 ounces (1 1/2 cups)"
+          },
+          {
+            "item": "Parmigiano Reggiano, grated, plus more for garnish",
+            "amount": "2 ounces (1/4 cup)"
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "amount": "2 tablespoons"
+          },
+          {
+            "item": "raw walnuts (or pecans, hazelnuts, or any nut)",
+            "amount": "1 cup"
+          },
+          {
+            "item": "lemon zest",
+            "amount": "zest of 1 lemon"
+          },
+          {
+            "item": "red pepper flakes",
+            "amount": "1/4 to 1/2 teaspoon"
+          },
+          {
+            "item": "fresh parsley, finely chopped",
+            "amount": "1/4 cup"
+          }
+        ],
+        "steps": [],
+        "notes": ""
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-10-18",
+      "day": "Sunday",
+      "meal": {
+        "title": "Rotisserie-ish Chicken with Schmaltzy Cabbage",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/rotisserie-ish-chicken-with-schmaltzy",
+        "chef": "Caroline Chambers",
+        "time_minutes": 90,
+        "servings": 4,
+        "tags": [
+          "chicken",
+          "whole-chicken",
+          "cabbage",
+          "sweet-potato",
+          "sheet-pan",
+          "weekend"
+        ],
+        "ingredients": [
+          {
+            "item": "green cabbage head (~2 lbs), cored and thinly sliced",
+            "amount": "1"
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "amount": "as needed"
+          },
+          {
+            "item": "kosher salt",
+            "amount": "to taste"
+          },
+          {
+            "item": "brown sugar",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "smoked paprika",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "chili powder",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "ground black pepper",
+            "amount": "1/2 teaspoon"
+          },
+          {
+            "item": "whole chicken (3 1/2 to 4 pounds)",
+            "amount": "1"
+          },
+          {
+            "item": "medium sweet potatoes",
+            "amount": "4"
+          },
+          {
+            "item": "apple cider vinegar or lemon juice",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "unsalted butter",
+            "amount": "4 tablespoons"
+          }
+        ],
+        "steps": [],
+        "notes": "Whole chicken time varies by bird size and oven \u2014 start checking at 45 minutes."
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    }
+  ]
+}
