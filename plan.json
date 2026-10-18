@@ -1,352 +1,38 @@
 {
-  "week_of": "2026-10-12",
-  "updated": "2026-10-11",
+  "week_of": "2026-10-19",
+  "updated": "2026-10-18",
   "days": [
     {
-      "date": "2026-10-12",
+      "date": "2026-10-19",
       "day": "Monday",
       "meal": {
-        "title": "Beef Enchilada Casserole",
+        "title": "Curry Roasted Chicken and Cauliflower Salad",
         "source": "What to Cook (Caroline Chambers)",
         "source_type": "substack",
-        "source_url": "https://whattocook.substack.com/p/beef-enchilada-casserole",
+        "source_url": "https://whattocook.substack.com/p/curry-roasted-chicken-and-cauliflower",
         "chef": "Caroline Chambers",
         "time_minutes": 45,
-        "servings": 6,
-        "tags": [
-          "beef",
-          "casserole",
-          "mexican-inspired",
-          "weeknight"
-        ],
-        "ingredients": [
-          {
-            "item": "yellow onion (medium)",
-            "amount": "1, finely chopped"
-          },
-          {
-            "item": "red bell pepper (large)",
-            "amount": "1, finely chopped"
-          },
-          {
-            "item": "garlic cloves",
-            "amount": "4, minced"
-          },
-          {
-            "item": "extra-virgin olive oil",
-            "amount": "1 tablespoon"
-          },
-          {
-            "item": "ground beef",
-            "amount": "1 pound"
-          },
-          {
-            "item": "cauliflower rice (frozen or fresh)",
-            "amount": "1 pound"
-          },
-          {
-            "item": "taco seasoning",
-            "amount": "1 tablespoon plus 2 teaspoons"
-          },
-          {
-            "item": "kosher salt",
-            "amount": "1 teaspoon"
-          },
-          {
-            "item": "spinach or kale",
-            "amount": "2 big handfuls"
-          },
-          {
-            "item": "all-purpose flour",
-            "amount": "1 tablespoon"
-          },
-          {
-            "item": "diced tomatoes (28-ounce can)",
-            "amount": "1 can"
-          },
-          {
-            "item": "corn tortillas (6- to 8-inch)",
-            "amount": "6"
-          },
-          {
-            "item": "cheddar or Mexican cheese (grated/shredded)",
-            "amount": "1 packed cup"
-          }
-        ],
-        "steps": [],
-        "notes": ""
-      },
-      "rest_day": false,
-      "rest_day_label": ""
-    },
-    {
-      "date": "2026-10-13",
-      "day": "Tuesday",
-      "meal": {
-        "title": "Saucy Ground Beef Teriyaki Bowls",
-        "source": "What to Cook (Caroline Chambers)",
-        "source_type": "substack",
-        "source_url": "https://whattocook.substack.com/p/saucy-ground-beef-teriyaki-bowls",
-        "chef": "Caroline Chambers",
-        "time_minutes": 30,
         "servings": 4,
         "tags": [
-          "beef",
-          "rice",
-          "bowls",
-          "asian-inspired",
-          "quick",
-          "weeknight"
-        ],
-        "ingredients": [
-          {
-            "item": "low-sodium soy sauce or coconut aminos",
-            "amount": "1/2 cup"
-          },
-          {
-            "item": "cornstarch, arrowroot, or tapioca powder",
-            "amount": "1 tablespoon"
-          },
-          {
-            "item": "water",
-            "amount": "1/2 cup"
-          },
-          {
-            "item": "sesame oil",
-            "amount": "2 tablespoons"
-          },
-          {
-            "item": "coconut sugar",
-            "amount": "1/4 cup"
-          },
-          {
-            "item": "garlic powder",
-            "amount": "1 teaspoon"
-          },
-          {
-            "item": "ground ginger",
-            "amount": "1 teaspoon"
-          },
-          {
-            "item": "small onion, finely diced",
-            "amount": "1"
-          },
-          {
-            "item": "garlic cloves, mashed",
-            "amount": "3"
-          },
-          {
-            "item": "red bell pepper, diced",
-            "amount": "1"
-          },
-          {
-            "item": "broccoli florets, finely diced",
-            "amount": "1 1/2 cups"
-          },
-          {
-            "item": "shredded carrots",
-            "amount": "3/4 cup"
-          },
-          {
-            "item": "olive oil",
-            "amount": "2 tablespoons"
-          },
-          {
-            "item": "ground beef (90/10)",
-            "amount": "1 pound"
-          },
-          {
-            "item": "jasmine rice, cooked per package instructions",
-            "amount": "1 cup"
-          },
-          {
-            "item": "garnishes",
-            "amount": "sliced green onions, sesame seeds"
-          }
-        ],
-        "steps": [],
-        "notes": "Avocado oil substituted with olive oil."
-      },
-      "rest_day": false,
-      "rest_day_label": ""
-    },
-    {
-      "date": "2026-10-14",
-      "day": "Wednesday",
-      "meal": {
-        "title": "Butternut Squash Farro-tto",
-        "source": "What to Cook (Caroline Chambers)",
-        "source_type": "substack",
-        "source_url": "https://whattocook.substack.com/p/butternut-squash-farro-tto",
-        "chef": "Caroline Chambers",
-        "time_minutes": 45,
-        "servings": 6,
-        "tags": [
-          "vegetarian",
-          "farro",
-          "squash",
+          "chicken",
+          "salad",
+          "cauliflower",
+          "sheet-pan",
           "weeknight",
-          "one-pot"
+          "curry"
         ],
         "ingredients": [
           {
-            "item": "extra-virgin olive oil",
-            "amount": "2 tablespoons"
-          },
-          {
-            "item": "yellow onion (large)",
-            "amount": "1, diced"
-          },
-          {
-            "item": "farro",
-            "amount": "1 1/2 cups"
-          },
-          {
-            "item": "garlic cloves",
-            "amount": "4, minced"
-          },
-          {
-            "item": "dried oregano",
-            "amount": "1 1/2 teaspoons"
-          },
-          {
-            "item": "low-sodium vegetable broth",
-            "amount": "1 quart (4 cups)"
-          },
-          {
-            "item": "butternut squash (chopped)",
-            "amount": "3 cups (~20 ounces)"
-          },
-          {
-            "item": "cauliflower rice",
-            "amount": "1 cup (optional)"
-          },
-          {
-            "item": "kosher salt",
-            "amount": "to taste"
-          },
-          {
-            "item": "garlic powder",
-            "amount": "1/2 teaspoon"
-          },
-          {
-            "item": "spinach (chopped)",
-            "amount": "4 cups"
-          },
-          {
-            "item": "lemon juice",
-            "amount": "juice of 1 lemon"
-          },
-          {
-            "item": "Parmesan cheese (grated)",
-            "amount": "1 cup"
-          },
-          {
-            "item": "Gruy\u00e8re cheese (shredded)",
-            "amount": "1/2 cup"
-          },
-          {
-            "item": "frozen broccoli",
-            "amount": "1 cup"
-          },
-          {
-            "item": "black pepper (freshly grated)",
-            "amount": "1/2 teaspoon"
-          }
-        ],
-        "steps": [],
-        "notes": "Peas substituted with frozen broccoli."
-      },
-      "rest_day": false,
-      "rest_day_label": ""
-    },
-    {
-      "date": "2026-10-15",
-      "day": "Thursday",
-      "meal": {
-        "title": "Crispy Farro with Sausage and Asparagus",
-        "source": "What to Cook (Caroline Chambers)",
-        "source_type": "substack",
-        "source_url": "https://whattocook.substack.com/p/crispy-farro-with-sausage-and-asparagus",
-        "chef": "Caroline Chambers",
-        "time_minutes": 40,
-        "servings": 4,
-        "tags": [
-          "sausage",
-          "farro",
-          "asparagus",
-          "one-pot",
-          "weeknight"
-        ],
-        "ingredients": [
-          {
-            "item": "pearled farro, uncooked (or 3 cups pre-cooked)",
-            "amount": "1 1/2 cups"
-          },
-          {
-            "item": "kosher salt",
-            "amount": "to taste"
-          },
-          {
-            "item": "mild or hot Italian sausage, casings removed",
-            "amount": "1 pound"
-          },
-          {
-            "item": "scallions (1 bunch), trimmed and thinly sliced on a diagonal, dark green parts kept separate",
-            "amount": ""
-          },
-          {
-            "item": "asparagus (1 bunch), trimmed and thinly sliced on a diagonal into 1/2-inch pieces",
-            "amount": ""
-          },
-          {
-            "item": "extra-virgin olive oil",
-            "amount": "1 tablespoon, plus more as needed"
-          },
-          {
-            "item": "red wine vinegar",
-            "amount": "1 tablespoon, plus more to taste"
-          }
-        ],
-        "steps": [],
-        "notes": "If you can't find pearled farro, cooking time will be longer \u2014 see source link for guidance."
-      },
-      "rest_day": false,
-      "rest_day_label": ""
-    },
-    {
-      "date": "2026-10-16",
-      "day": "Friday",
-      "meal": null,
-      "rest_day": true,
-      "rest_day_label": "Takeout or leftovers"
-    },
-    {
-      "date": "2026-10-17",
-      "day": "Saturday",
-      "meal": {
-        "title": "No-Stir Mushroom Risotto",
-        "source": "What to Cook (Caroline Chambers)",
-        "source_type": "substack",
-        "source_url": "https://whattocook.substack.com/p/no-stir-mushroom-risotto",
-        "chef": "Caroline Chambers",
-        "time_minutes": 80,
-        "servings": 6,
-        "tags": [
-          "vegetarian",
-          "risotto",
-          "mushroom",
-          "one-pot",
-          "weekend"
-        ],
-        "ingredients": [
-          {
-            "item": "medium yellow onion, thinly sliced",
+            "item": "cauliflower head, cut into 1-inch flat florets",
             "amount": "1"
           },
           {
-            "item": "mushrooms (any kind), sliced",
-            "amount": "1 pound"
+            "item": "small red onion, thinly sliced",
+            "amount": "1"
+          },
+          {
+            "item": "boneless skinless chicken thighs",
+            "amount": "1 1/2 pounds"
           },
           {
             "item": "extra-virgin olive oil",
@@ -357,47 +43,59 @@
             "amount": "to taste"
           },
           {
-            "item": "short grain brown rice",
-            "amount": "1 1/2 cups"
+            "item": "smoked paprika",
+            "amount": "1 teaspoon"
           },
           {
-            "item": "beef stock (or water + beef-flavored Better Than Bouillon), divided",
-            "amount": "6 1/2 to 7 cups"
+            "item": "curry powder, divided",
+            "amount": "2 teaspoons"
           },
           {
-            "item": "white wine (not sweet; or 1/4 cup red)",
+            "item": "ground coriander",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "garlic powder",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "mayonnaise",
             "amount": "1/2 cup"
           },
           {
-            "item": "lemon juice",
-            "amount": "juice of 1/2 lemon"
+            "item": "Greek yogurt",
+            "amount": "1/2 cup"
           },
           {
-            "item": "Gruy\u00e8re, grated",
-            "amount": "6 ounces (1 1/2 cups)"
+            "item": "lime juice",
+            "amount": "juice of 2 limes"
           },
           {
-            "item": "Parmigiano Reggiano, grated, plus more for garnish",
-            "amount": "2 ounces (1/4 cup)"
-          },
-          {
-            "item": "extra-virgin olive oil",
+            "item": "water",
             "amount": "2 tablespoons"
           },
           {
-            "item": "raw walnuts (or pecans, hazelnuts, or any nut)",
-            "amount": "1 cup"
+            "item": "honey",
+            "amount": "1 tablespoon"
           },
           {
-            "item": "lemon zest",
-            "amount": "zest of 1 lemon"
+            "item": "small honeycrisp apple, cut into batons",
+            "amount": "1"
           },
           {
-            "item": "red pepper flakes",
-            "amount": "1/4 to 1/2 teaspoon"
+            "item": "dates, pitted and chopped (or 1/3 cup dried cranberries or golden raisins)",
+            "amount": "5"
           },
           {
-            "item": "fresh parsley, finely chopped",
+            "item": "arugula (5-oz container)",
+            "amount": "1"
+          },
+          {
+            "item": "Parmesan, shaved with a vegetable peeler",
+            "amount": "4 ounces"
+          },
+          {
+            "item": "roasted salted pistachios, sunflower seeds, pepitas, or almonds",
             "amount": "1/4 cup"
           }
         ],
@@ -408,75 +106,291 @@
       "rest_day_label": ""
     },
     {
-      "date": "2026-10-18",
-      "day": "Sunday",
+      "date": "2026-10-20",
+      "day": "Tuesday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Takeout or leftovers"
+    },
+    {
+      "date": "2026-10-21",
+      "day": "Wednesday",
       "meal": {
-        "title": "Rotisserie-ish Chicken with Schmaltzy Cabbage",
+        "title": "Happy Bowls",
         "source": "What to Cook (Caroline Chambers)",
         "source_type": "substack",
-        "source_url": "https://whattocook.substack.com/p/rotisserie-ish-chicken-with-schmaltzy",
+        "source_url": "https://whattocook.substack.com/p/happy-bowls",
         "chef": "Caroline Chambers",
-        "time_minutes": 90,
+        "time_minutes": 55,
         "servings": 4,
         "tags": [
-          "chicken",
-          "whole-chicken",
-          "cabbage",
-          "sweet-potato",
+          "vegetarian",
+          "vegan",
+          "bowls",
           "sheet-pan",
+          "cauliflower",
+          "sweet-potato",
+          "beet",
           "weekend"
         ],
         "ingredients": [
           {
-            "item": "green cabbage head (~2 lbs), cored and thinly sliced",
+            "item": "roasted cashews (sub: 1 can cannellini beans + 1 tbsp olive oil)",
+            "amount": "2 cups"
+          },
+          {
+            "item": "fresh soft green herbs (basil, cilantro, or dill)",
+            "amount": "1 cup"
+          },
+          {
+            "item": "apple cider vinegar",
+            "amount": "2 tablespoons"
+          },
+          {
+            "item": "hot water, plus more as needed",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "small garlic clove (or 1/8 tsp garlic powder)",
             "amount": "1"
+          },
+          {
+            "item": "kosher salt",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "extra large sweet potato, 1-inch cubed",
+            "amount": "1"
+          },
+          {
+            "item": "large beet, 1-inch cubed",
+            "amount": "1"
+          },
+          {
+            "item": "head of cauliflower, cut into thin florets",
+            "amount": "1"
+          },
+          {
+            "item": "small red onion, thinly sliced",
+            "amount": "1"
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "amount": "to coat"
+          },
+          {
+            "item": "kosher salt and black pepper",
+            "amount": "to taste"
+          },
+          {
+            "item": "garlic powder, onion powder, smoked paprika",
+            "amount": "a few shakes each"
+          },
+          {
+            "item": "cooked grain (farro, rice, or similar \u2014 about 1 to 1 1/2 cups dry)",
+            "amount": "as needed"
+          },
+          {
+            "item": "fresh spinach or other greens, chopped",
+            "amount": "a few handfuls"
+          },
+          {
+            "item": "optional toppings",
+            "amount": "crumbled feta, hard-boiled eggs, pickled red onions, roasted nuts or seeds, extra fresh herbs"
+          }
+        ],
+        "steps": [],
+        "notes": "Cashew allergy sub: replace cashews with 1 can cannellini beans + 1 tbsp olive oil in the sauce."
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-10-22",
+      "day": "Thursday",
+      "meal": {
+        "title": "Sheet Pan Greek Chicken and Potatoes",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/sheet-pan-greek-chicken-and-potatoes",
+        "chef": "Caroline Chambers",
+        "time_minutes": 55,
+        "servings": 4,
+        "tags": [
+          "chicken",
+          "sheet-pan",
+          "greek-inspired",
+          "potatoes",
+          "weekend"
+        ],
+        "ingredients": [
+          {
+            "item": "olive oil, divided",
+            "amount": "4 tablespoons"
+          },
+          {
+            "item": "lemon (zest and juice), divided",
+            "amount": "1"
+          },
+          {
+            "item": "garlic cloves, grated",
+            "amount": "2"
+          },
+          {
+            "item": "kosher salt and pepper",
+            "amount": "to taste"
+          },
+          {
+            "item": "dried oregano (or 2 teaspoons fresh)",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "bone-in, skin-on chicken thighs",
+            "amount": "2 pounds"
+          },
+          {
+            "item": "fingerling potatoes, halved (or quartered if large)",
+            "amount": "1 1/2 pounds"
+          },
+          {
+            "item": "fennel head, thinly sliced",
+            "amount": "1"
+          },
+          {
+            "item": "feta cheese, crumbled",
+            "amount": "2\u20134 ounces"
+          },
+          {
+            "item": "fresh dill, chopped",
+            "amount": "3 tablespoons"
+          }
+        ],
+        "steps": [],
+        "notes": "Fennel: see source link for prep notes. Can substitute with thinly sliced onion or leek if unavailable."
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-10-23",
+      "day": "Friday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Takeout or leftovers"
+    },
+    {
+      "date": "2026-10-24",
+      "day": "Saturday",
+      "meal": {
+        "title": "Good Soup",
+        "source": "What to Cook When You Don't Feel Like Cooking",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/good-soup",
+        "chef": "Caroline Chambers",
+        "time_minutes": 90,
+        "servings": 6,
+        "tags": [
+          "soup",
+          "sausage",
+          "lentils",
+          "barley",
+          "one-pot",
+          "weekend"
+        ],
+        "ingredients": [
+          {
+            "item": "large carrots",
+            "amount": "3"
+          },
+          {
+            "item": "large fennel bulb",
+            "amount": "1"
+          },
+          {
+            "item": "large yellow onion, peeled and quartered",
+            "amount": "1"
+          },
+          {
+            "item": "garlic cloves",
+            "amount": "4"
+          },
+          {
+            "item": "mild Italian sausage",
+            "amount": "1 pound"
           },
           {
             "item": "extra-virgin olive oil",
             "amount": "as needed"
           },
           {
-            "item": "kosher salt",
+            "item": "kosher salt and freshly ground black pepper",
             "amount": "to taste"
           },
           {
-            "item": "brown sugar",
-            "amount": "1 tablespoon"
+            "item": "mild harissa paste/sauce",
+            "amount": "1\u20132 tablespoons"
           },
           {
-            "item": "smoked paprika",
-            "amount": "1 tablespoon"
+            "item": "tomato paste",
+            "amount": "2 tablespoons"
           },
           {
-            "item": "chili powder",
-            "amount": "1 teaspoon"
+            "item": "ground cumin",
+            "amount": "\u00be teaspoon"
           },
           {
-            "item": "ground black pepper",
-            "amount": "1/2 teaspoon"
-          },
-          {
-            "item": "whole chicken (3 1/2 to 4 pounds)",
+            "item": "lemon, washed and zested",
             "amount": "1"
           },
           {
-            "item": "medium sweet potatoes",
-            "amount": "4"
+            "item": "water",
+            "amount": "12 cups"
           },
           {
-            "item": "apple cider vinegar or lemon juice",
-            "amount": "1 tablespoon"
+            "item": "low-sodium chicken-flavored Better Than Bouillon",
+            "amount": "3 tablespoons"
           },
           {
-            "item": "unsalted butter",
-            "amount": "4 tablespoons"
+            "item": "French green lentils, rinsed",
+            "amount": "1 cup"
+          },
+          {
+            "item": "barley (or farro)",
+            "amount": "1 cup"
+          },
+          {
+            "item": "large bunch collards or lacinato kale",
+            "amount": "1"
+          },
+          {
+            "item": "Parmigiano-Reggiano block",
+            "amount": "1"
+          },
+          {
+            "item": "dried bay leaves or fresh rosemary sprigs",
+            "amount": "2"
+          },
+          {
+            "item": "\u00bd-inch cubed bread",
+            "amount": "4 cups"
+          },
+          {
+            "item": "garlic powder",
+            "amount": "\u00bc teaspoon"
           }
         ],
         "steps": [],
-        "notes": "Whole chicken time varies by bird size and oven \u2014 start checking at 45 minutes."
+        "notes": "90 min total, ~20 min active. Serves 6\u20138 \u2014 great leftover opportunity for a household of 3."
       },
       "rest_day": false,
       "rest_day_label": ""
+    },
+    {
+      "date": "2026-10-25",
+      "day": "Sunday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Takeout or leftovers"
     }
   ]
 }

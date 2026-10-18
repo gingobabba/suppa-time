@@ -1,0 +1,396 @@
+{
+  "week_of": "2026-10-19",
+  "updated": "2026-10-18",
+  "days": [
+    {
+      "date": "2026-10-19",
+      "day": "Monday",
+      "meal": {
+        "title": "Curry Roasted Chicken and Cauliflower Salad",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/curry-roasted-chicken-and-cauliflower",
+        "chef": "Caroline Chambers",
+        "time_minutes": 45,
+        "servings": 4,
+        "tags": [
+          "chicken",
+          "salad",
+          "cauliflower",
+          "sheet-pan",
+          "weeknight",
+          "curry"
+        ],
+        "ingredients": [
+          {
+            "item": "cauliflower head, cut into 1-inch flat florets",
+            "amount": "1"
+          },
+          {
+            "item": "small red onion, thinly sliced",
+            "amount": "1"
+          },
+          {
+            "item": "boneless skinless chicken thighs",
+            "amount": "1 1/2 pounds"
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "amount": "1/4 cup"
+          },
+          {
+            "item": "kosher salt and black pepper",
+            "amount": "to taste"
+          },
+          {
+            "item": "smoked paprika",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "curry powder, divided",
+            "amount": "2 teaspoons"
+          },
+          {
+            "item": "ground coriander",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "garlic powder",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "mayonnaise",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "Greek yogurt",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "lime juice",
+            "amount": "juice of 2 limes"
+          },
+          {
+            "item": "water",
+            "amount": "2 tablespoons"
+          },
+          {
+            "item": "honey",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "small honeycrisp apple, cut into batons",
+            "amount": "1"
+          },
+          {
+            "item": "dates, pitted and chopped (or 1/3 cup dried cranberries or golden raisins)",
+            "amount": "5"
+          },
+          {
+            "item": "arugula (5-oz container)",
+            "amount": "1"
+          },
+          {
+            "item": "Parmesan, shaved with a vegetable peeler",
+            "amount": "4 ounces"
+          },
+          {
+            "item": "roasted salted pistachios, sunflower seeds, pepitas, or almonds",
+            "amount": "1/4 cup"
+          }
+        ],
+        "steps": [],
+        "notes": ""
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-10-20",
+      "day": "Tuesday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Takeout or leftovers"
+    },
+    {
+      "date": "2026-10-21",
+      "day": "Wednesday",
+      "meal": {
+        "title": "Happy Bowls",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/happy-bowls",
+        "chef": "Caroline Chambers",
+        "time_minutes": 55,
+        "servings": 4,
+        "tags": [
+          "vegetarian",
+          "vegan",
+          "bowls",
+          "sheet-pan",
+          "cauliflower",
+          "sweet-potato",
+          "beet",
+          "weekend"
+        ],
+        "ingredients": [
+          {
+            "item": "roasted cashews (sub: 1 can cannellini beans + 1 tbsp olive oil)",
+            "amount": "2 cups"
+          },
+          {
+            "item": "fresh soft green herbs (basil, cilantro, or dill)",
+            "amount": "1 cup"
+          },
+          {
+            "item": "apple cider vinegar",
+            "amount": "2 tablespoons"
+          },
+          {
+            "item": "hot water, plus more as needed",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "small garlic clove (or 1/8 tsp garlic powder)",
+            "amount": "1"
+          },
+          {
+            "item": "kosher salt",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "extra large sweet potato, 1-inch cubed",
+            "amount": "1"
+          },
+          {
+            "item": "large beet, 1-inch cubed",
+            "amount": "1"
+          },
+          {
+            "item": "head of cauliflower, cut into thin florets",
+            "amount": "1"
+          },
+          {
+            "item": "small red onion, thinly sliced",
+            "amount": "1"
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "amount": "to coat"
+          },
+          {
+            "item": "kosher salt and black pepper",
+            "amount": "to taste"
+          },
+          {
+            "item": "garlic powder, onion powder, smoked paprika",
+            "amount": "a few shakes each"
+          },
+          {
+            "item": "cooked grain (farro, rice, or similar \u2014 about 1 to 1 1/2 cups dry)",
+            "amount": "as needed"
+          },
+          {
+            "item": "fresh spinach or other greens, chopped",
+            "amount": "a few handfuls"
+          },
+          {
+            "item": "optional toppings",
+            "amount": "crumbled feta, hard-boiled eggs, pickled red onions, roasted nuts or seeds, extra fresh herbs"
+          }
+        ],
+        "steps": [],
+        "notes": "Cashew allergy sub: replace cashews with 1 can cannellini beans + 1 tbsp olive oil in the sauce."
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-10-22",
+      "day": "Thursday",
+      "meal": {
+        "title": "Sheet Pan Greek Chicken and Potatoes",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/sheet-pan-greek-chicken-and-potatoes",
+        "chef": "Caroline Chambers",
+        "time_minutes": 55,
+        "servings": 4,
+        "tags": [
+          "chicken",
+          "sheet-pan",
+          "greek-inspired",
+          "potatoes",
+          "weekend"
+        ],
+        "ingredients": [
+          {
+            "item": "olive oil, divided",
+            "amount": "4 tablespoons"
+          },
+          {
+            "item": "lemon (zest and juice), divided",
+            "amount": "1"
+          },
+          {
+            "item": "garlic cloves, grated",
+            "amount": "2"
+          },
+          {
+            "item": "kosher salt and pepper",
+            "amount": "to taste"
+          },
+          {
+            "item": "dried oregano (or 2 teaspoons fresh)",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "bone-in, skin-on chicken thighs",
+            "amount": "2 pounds"
+          },
+          {
+            "item": "fingerling potatoes, halved (or quartered if large)",
+            "amount": "1 1/2 pounds"
+          },
+          {
+            "item": "fennel head, thinly sliced",
+            "amount": "1"
+          },
+          {
+            "item": "feta cheese, crumbled",
+            "amount": "2\u20134 ounces"
+          },
+          {
+            "item": "fresh dill, chopped",
+            "amount": "3 tablespoons"
+          }
+        ],
+        "steps": [],
+        "notes": "Fennel: see source link for prep notes. Can substitute with thinly sliced onion or leek if unavailable."
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-10-23",
+      "day": "Friday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Takeout or leftovers"
+    },
+    {
+      "date": "2026-10-24",
+      "day": "Saturday",
+      "meal": {
+        "title": "Good Soup",
+        "source": "What to Cook When You Don't Feel Like Cooking",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/good-soup",
+        "chef": "Caroline Chambers",
+        "time_minutes": 90,
+        "servings": 6,
+        "tags": [
+          "soup",
+          "sausage",
+          "lentils",
+          "barley",
+          "one-pot",
+          "weekend"
+        ],
+        "ingredients": [
+          {
+            "item": "large carrots",
+            "amount": "3"
+          },
+          {
+            "item": "large fennel bulb",
+            "amount": "1"
+          },
+          {
+            "item": "large yellow onion, peeled and quartered",
+            "amount": "1"
+          },
+          {
+            "item": "garlic cloves",
+            "amount": "4"
+          },
+          {
+            "item": "mild Italian sausage",
+            "amount": "1 pound"
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "amount": "as needed"
+          },
+          {
+            "item": "kosher salt and freshly ground black pepper",
+            "amount": "to taste"
+          },
+          {
+            "item": "mild harissa paste/sauce",
+            "amount": "1\u20132 tablespoons"
+          },
+          {
+            "item": "tomato paste",
+            "amount": "2 tablespoons"
+          },
+          {
+            "item": "ground cumin",
+            "amount": "\u00be teaspoon"
+          },
+          {
+            "item": "lemon, washed and zested",
+            "amount": "1"
+          },
+          {
+            "item": "water",
+            "amount": "12 cups"
+          },
+          {
+            "item": "low-sodium chicken-flavored Better Than Bouillon",
+            "amount": "3 tablespoons"
+          },
+          {
+            "item": "French green lentils, rinsed",
+            "amount": "1 cup"
+          },
+          {
+            "item": "barley (or farro)",
+            "amount": "1 cup"
+          },
+          {
+            "item": "large bunch collards or lacinato kale",
+            "amount": "1"
+          },
+          {
+            "item": "Parmigiano-Reggiano block",
+            "amount": "1"
+          },
+          {
+            "item": "dried bay leaves or fresh rosemary sprigs",
+            "amount": "2"
+          },
+          {
+            "item": "\u00bd-inch cubed bread",
+            "amount": "4 cups"
+          },
+          {
+            "item": "garlic powder",
+            "amount": "\u00bc teaspoon"
+          }
+        ],
+        "steps": [],
+        "notes": "90 min total, ~20 min active. Serves 6\u20138 \u2014 great leftover opportunity for a household of 3."
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-10-25",
+      "day": "Sunday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Takeout or leftovers"
+    }
+  ]
+}
