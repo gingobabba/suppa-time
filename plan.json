@@ -1,102 +1,79 @@
 {
-  "week_of": "2026-10-19",
-  "updated": "2026-10-18",
+  "week_of": "2026-10-26",
+  "updated": "2026-10-25",
   "days": [
     {
-      "date": "2026-10-19",
+      "date": "2026-10-26",
       "day": "Monday",
       "meal": {
-        "title": "Curry Roasted Chicken and Cauliflower Salad",
+        "title": "30-Minute Honey Gochujang Glazed Salmon",
         "source": "What to Cook (Caroline Chambers)",
         "source_type": "substack",
-        "source_url": "https://whattocook.substack.com/p/curry-roasted-chicken-and-cauliflower",
+        "source_url": "https://whattocook.substack.com/p/30-minute-honey-gochujang-glazed",
         "chef": "Caroline Chambers",
-        "time_minutes": 45,
+        "time_minutes": 30,
         "servings": 4,
         "tags": [
-          "chicken",
-          "salad",
-          "cauliflower",
-          "sheet-pan",
-          "weeknight",
-          "curry"
+          "salmon",
+          "fish",
+          "rice",
+          "broccoli",
+          "asian-inspired",
+          "quick",
+          "weeknight"
         ],
         "ingredients": [
           {
-            "item": "cauliflower head, cut into 1-inch flat florets",
+            "item": "white rice (sushi rice preferred), rinsed",
+            "amount": "1 1/2 cups"
+          },
+          {
+            "item": "coconut milk (14-oz can)",
             "amount": "1"
           },
           {
-            "item": "small red onion, thinly sliced",
-            "amount": "1"
+            "item": "water, divided",
+            "amount": "1 1/4 cups plus 1 tablespoon"
           },
           {
-            "item": "boneless skinless chicken thighs",
-            "amount": "1 1/2 pounds"
+            "item": "honey, divided",
+            "amount": "5 tablespoons"
           },
           {
-            "item": "extra-virgin olive oil",
-            "amount": "1/4 cup"
-          },
-          {
-            "item": "kosher salt and black pepper",
+            "item": "kosher salt",
             "amount": "to taste"
           },
           {
-            "item": "smoked paprika",
-            "amount": "1 teaspoon"
+            "item": "broccoli florets, cut into 1 1/2-inch pieces",
+            "amount": "1 pound"
           },
           {
-            "item": "curry powder, divided",
-            "amount": "2 teaspoons"
+            "item": "low-sodium soy sauce",
+            "amount": "1/4 cup"
           },
           {
-            "item": "ground coriander",
-            "amount": "1 teaspoon"
-          },
-          {
-            "item": "garlic powder",
-            "amount": "1 teaspoon"
-          },
-          {
-            "item": "mayonnaise",
-            "amount": "1/2 cup"
-          },
-          {
-            "item": "Greek yogurt",
-            "amount": "1/2 cup"
-          },
-          {
-            "item": "lime juice",
-            "amount": "juice of 2 limes"
-          },
-          {
-            "item": "water",
-            "amount": "2 tablespoons"
-          },
-          {
-            "item": "honey",
+            "item": "fish sauce",
             "amount": "1 tablespoon"
           },
           {
-            "item": "small honeycrisp apple, cut into batons",
-            "amount": "1"
+            "item": "gochujang or sriracha",
+            "amount": "1 tablespoon"
           },
           {
-            "item": "dates, pitted and chopped (or 1/3 cup dried cranberries or golden raisins)",
-            "amount": "5"
+            "item": "garlic powder",
+            "amount": "1/2 teaspoon"
           },
           {
-            "item": "arugula (5-oz container)",
-            "amount": "1"
+            "item": "salmon filets (6-oz each), cut into 1-inch cubes",
+            "amount": "4"
           },
           {
-            "item": "Parmesan, shaved with a vegetable peeler",
-            "amount": "4 ounces"
+            "item": "cooking oil",
+            "amount": "about 2 tablespoons"
           },
           {
-            "item": "roasted salted pistachios, sunflower seeds, pepitas, or almonds",
-            "amount": "1/4 cup"
+            "item": "unsalted butter",
+            "amount": "2 tablespoons"
           }
         ],
         "steps": [],
@@ -106,287 +83,264 @@
       "rest_day_label": ""
     },
     {
-      "date": "2026-10-20",
+      "date": "2026-10-27",
       "day": "Tuesday",
       "meal": null,
       "rest_day": true,
       "rest_day_label": "Takeout or leftovers"
     },
     {
-      "date": "2026-10-21",
+      "date": "2026-10-28",
       "day": "Wednesday",
       "meal": {
-        "title": "Happy Bowls",
+        "title": "30-Minute Crunchy Cheesy Bean Bake",
         "source": "What to Cook (Caroline Chambers)",
         "source_type": "substack",
-        "source_url": "https://whattocook.substack.com/p/happy-bowls",
+        "source_url": "https://whattocook.substack.com/p/30-minute-crunchy-cheesy-bean-bake",
         "chef": "Caroline Chambers",
-        "time_minutes": 55,
+        "time_minutes": 30,
         "servings": 4,
         "tags": [
           "vegetarian",
-          "vegan",
-          "bowls",
-          "sheet-pan",
-          "cauliflower",
-          "sweet-potato",
-          "beet",
-          "weekend"
+          "beans",
+          "one-pan",
+          "quick",
+          "weeknight"
         ],
         "ingredients": [
           {
-            "item": "roasted cashews (sub: 1 can cannellini beans + 1 tbsp olive oil)",
-            "amount": "2 cups"
+            "item": "medium yellow onion, finely chopped",
+            "amount": "1/2"
           },
           {
-            "item": "fresh soft green herbs (basil, cilantro, or dill)",
-            "amount": "1 cup"
+            "item": "garlic cloves, minced",
+            "amount": "2"
           },
           {
-            "item": "apple cider vinegar",
-            "amount": "2 tablespoons"
+            "item": "extra-virgin olive oil, divided",
+            "amount": "6 tablespoons"
           },
           {
-            "item": "hot water, plus more as needed",
-            "amount": "1/2 cup"
-          },
-          {
-            "item": "small garlic clove (or 1/8 tsp garlic powder)",
-            "amount": "1"
-          },
-          {
-            "item": "kosher salt",
-            "amount": "1 teaspoon"
-          },
-          {
-            "item": "extra large sweet potato, 1-inch cubed",
-            "amount": "1"
-          },
-          {
-            "item": "large beet, 1-inch cubed",
-            "amount": "1"
-          },
-          {
-            "item": "head of cauliflower, cut into thin florets",
-            "amount": "1"
-          },
-          {
-            "item": "small red onion, thinly sliced",
-            "amount": "1"
-          },
-          {
-            "item": "extra-virgin olive oil",
-            "amount": "to coat"
+            "item": "dried red pepper flakes",
+            "amount": "pinch"
           },
           {
             "item": "kosher salt and black pepper",
             "amount": "to taste"
           },
           {
-            "item": "garlic powder, onion powder, smoked paprika",
-            "amount": "a few shakes each"
+            "item": "tomato paste",
+            "amount": "1 heaping tablespoon"
           },
           {
-            "item": "cooked grain (farro, rice, or similar \u2014 about 1 to 1 1/2 cups dry)",
-            "amount": "as needed"
+            "item": "diced tomatoes (14.5-oz can)",
+            "amount": "1"
           },
           {
-            "item": "fresh spinach or other greens, chopped",
-            "amount": "a few handfuls"
+            "item": "dried oregano",
+            "amount": "1 tablespoon"
           },
           {
-            "item": "optional toppings",
-            "amount": "crumbled feta, hard-boiled eggs, pickled red onions, roasted nuts or seeds, extra fresh herbs"
+            "item": "water",
+            "amount": "1/4 cup"
+          },
+          {
+            "item": "cooked white beans (gigantes or cannellini), or 2 (15-oz) cans, rinsed and drained",
+            "amount": "3 cups"
+          },
+          {
+            "item": "panko breadcrumbs",
+            "amount": "1 cup"
+          },
+          {
+            "item": "Parmesan cheese, grated",
+            "amount": "1/4 cup"
+          },
+          {
+            "item": "fresh thyme sprigs",
+            "amount": "3 (leaves only)"
+          },
+          {
+            "item": "fresh mozzarella, thinly sliced",
+            "amount": "5 slices (about 3 oz)"
+          },
+          {
+            "item": "for serving",
+            "amount": "green salad and/or crusty bread (optional)"
           }
         ],
         "steps": [],
-        "notes": "Cashew allergy sub: replace cashews with 1 can cannellini beans + 1 tbsp olive oil in the sauce."
+        "notes": ""
       },
       "rest_day": false,
       "rest_day_label": ""
     },
     {
-      "date": "2026-10-22",
+      "date": "2026-10-29",
       "day": "Thursday",
       "meal": {
-        "title": "Sheet Pan Greek Chicken and Potatoes",
+        "title": "Crispy Chicken Chili Verde Street Tacos",
         "source": "What to Cook (Caroline Chambers)",
         "source_type": "substack",
-        "source_url": "https://whattocook.substack.com/p/sheet-pan-greek-chicken-and-potatoes",
+        "source_url": "https://whattocook.substack.com/p/crispy-chicken-chili-verde-street",
         "chef": "Caroline Chambers",
-        "time_minutes": 55,
+        "time_minutes": 35,
         "servings": 4,
         "tags": [
           "chicken",
-          "sheet-pan",
-          "greek-inspired",
-          "potatoes",
-          "weekend"
+          "tacos",
+          "mexican-inspired",
+          "quick",
+          "weeknight",
+          "sheet-pan"
         ],
         "ingredients": [
           {
-            "item": "olive oil, divided",
-            "amount": "4 tablespoons"
+            "item": "ground chicken",
+            "amount": "1 pound"
           },
           {
-            "item": "lemon (zest and juice), divided",
+            "item": "white corn, drained",
+            "amount": "1 (14-oz) can"
+          },
+          {
+            "item": "diced green chiles (drain if watery)",
+            "amount": "1 (4-oz) can"
+          },
+          {
+            "item": "taco seasoning (ideally sodium-free), divided",
+            "amount": "3 teaspoons"
+          },
+          {
+            "item": "kosher salt, divided",
+            "amount": "1 1/8 teaspoons"
+          },
+          {
+            "item": "cheddar, pepper jack, or Monterey Jack, shredded",
+            "amount": "4 ounces (1 cup)"
+          },
+          {
+            "item": "street taco tortillas, flour or corn",
+            "amount": "20"
+          },
+          {
+            "item": "cooking spray",
+            "amount": ""
+          },
+          {
+            "item": "mayo, sour cream, or Greek yogurt (or a mix)",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "lime",
             "amount": "1"
-          },
-          {
-            "item": "garlic cloves, grated",
-            "amount": "2"
-          },
-          {
-            "item": "kosher salt and pepper",
-            "amount": "to taste"
-          },
-          {
-            "item": "dried oregano (or 2 teaspoons fresh)",
-            "amount": "1 teaspoon"
-          },
-          {
-            "item": "bone-in, skin-on chicken thighs",
-            "amount": "2 pounds"
-          },
-          {
-            "item": "fingerling potatoes, halved (or quartered if large)",
-            "amount": "1 1/2 pounds"
-          },
-          {
-            "item": "fennel head, thinly sliced",
-            "amount": "1"
-          },
-          {
-            "item": "feta cheese, crumbled",
-            "amount": "2\u20134 ounces"
-          },
-          {
-            "item": "fresh dill, chopped",
-            "amount": "3 tablespoons"
           }
         ],
         "steps": [],
-        "notes": "Fennel: see source link for prep notes. Can substitute with thinly sliced onion or leek if unavailable."
+        "notes": "Check the source link for shopping notes on ground chicken and sodium-free taco seasoning."
       },
       "rest_day": false,
       "rest_day_label": ""
     },
     {
-      "date": "2026-10-23",
+      "date": "2026-10-30",
       "day": "Friday",
       "meal": null,
       "rest_day": true,
       "rest_day_label": "Takeout or leftovers"
     },
     {
-      "date": "2026-10-24",
+      "date": "2026-10-31",
       "day": "Saturday",
       "meal": {
-        "title": "Good Soup",
-        "source": "What to Cook When You Don't Feel Like Cooking",
+        "title": "Honey Roasted Chicken, Carrots, and Brussels",
+        "source": "What to Cook (Caroline Chambers)",
         "source_type": "substack",
-        "source_url": "https://whattocook.substack.com/p/good-soup",
+        "source_url": "https://whattocook.substack.com/p/honey-roasted-chicken-carrots-and",
         "chef": "Caroline Chambers",
-        "time_minutes": 90,
-        "servings": 6,
+        "time_minutes": 50,
+        "servings": 4,
         "tags": [
-          "soup",
-          "sausage",
-          "lentils",
-          "barley",
-          "one-pot",
+          "chicken",
+          "carrots",
+          "brussels-sprouts",
+          "sheet-pan",
           "weekend"
         ],
         "ingredients": [
           {
-            "item": "large carrots",
-            "amount": "3"
+            "item": "honey",
+            "amount": "1/4 cup"
           },
           {
-            "item": "large fennel bulb",
-            "amount": "1"
-          },
-          {
-            "item": "large yellow onion, peeled and quartered",
-            "amount": "1"
-          },
-          {
-            "item": "garlic cloves",
-            "amount": "4"
-          },
-          {
-            "item": "mild Italian sausage",
-            "amount": "1 pound"
-          },
-          {
-            "item": "extra-virgin olive oil",
-            "amount": "as needed"
-          },
-          {
-            "item": "kosher salt and freshly ground black pepper",
-            "amount": "to taste"
-          },
-          {
-            "item": "mild harissa paste/sauce",
-            "amount": "1\u20132 tablespoons"
-          },
-          {
-            "item": "tomato paste",
-            "amount": "2 tablespoons"
+            "item": "neutral cooking oil",
+            "amount": "1/4 cup"
           },
           {
             "item": "ground cumin",
-            "amount": "\u00be teaspoon"
+            "amount": "1 teaspoon"
           },
           {
-            "item": "lemon, washed and zested",
-            "amount": "1"
+            "item": "paprika",
+            "amount": "1 teaspoon"
           },
           {
-            "item": "water",
-            "amount": "12 cups"
+            "item": "cayenne pepper",
+            "amount": "1/8 teaspoon"
           },
           {
-            "item": "low-sodium chicken-flavored Better Than Bouillon",
-            "amount": "3 tablespoons"
+            "item": "garlic cloves, minced",
+            "amount": "4"
           },
           {
-            "item": "French green lentils, rinsed",
+            "item": "kosher salt",
+            "amount": "2 teaspoons"
+          },
+          {
+            "item": "bone-in, skin-on chicken thighs",
+            "amount": "1 1/2 to 2 pounds"
+          },
+          {
+            "item": "carrots, cut into 2-inch pieces on the bias",
+            "amount": "1 pound"
+          },
+          {
+            "item": "brussels sprouts, trimmed and halved",
+            "amount": "1 pound"
+          },
+          {
+            "item": "cilantro or parsley, finely minced",
+            "amount": "1/3 cup"
+          },
+          {
+            "item": "tahini",
+            "amount": "1/4 cup"
+          },
+          {
+            "item": "lemon juice",
+            "amount": "juice of 1 lemon"
+          },
+          {
+            "item": "Greek yogurt",
             "amount": "1 cup"
           },
           {
-            "item": "barley (or farro)",
-            "amount": "1 cup"
-          },
-          {
-            "item": "large bunch collards or lacinato kale",
+            "item": "garlic clove, minced (or 1/4 tsp garlic powder)",
             "amount": "1"
           },
           {
-            "item": "Parmigiano-Reggiano block",
-            "amount": "1"
-          },
-          {
-            "item": "dried bay leaves or fresh rosemary sprigs",
-            "amount": "2"
-          },
-          {
-            "item": "\u00bd-inch cubed bread",
-            "amount": "4 cups"
-          },
-          {
-            "item": "garlic powder",
-            "amount": "\u00bc teaspoon"
+            "item": "kosher salt and pepper",
+            "amount": "to taste"
           }
         ],
         "steps": [],
-        "notes": "90 min total, ~20 min active. Serves 6\u20138 \u2014 great leftover opportunity for a household of 3."
+        "notes": ""
       },
       "rest_day": false,
       "rest_day_label": ""
     },
     {
-      "date": "2026-10-25",
+      "date": "2026-11-01",
       "day": "Sunday",
       "meal": null,
       "rest_day": true,
