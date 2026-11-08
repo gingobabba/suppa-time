@@ -1,0 +1,323 @@
+{
+  "week_of": "2026-11-09",
+  "updated": "2026-11-08",
+  "days": [
+    {
+      "date": "2026-11-09",
+      "day": "Monday",
+      "meal": {
+        "title": "Beef Enchilada Casserole",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/beef-enchilada-casserole",
+        "chef": "Caroline Chambers",
+        "time_minutes": 45,
+        "servings": 6,
+        "tags": [
+          "beef",
+          "casserole",
+          "mexican-inspired",
+          "weeknight"
+        ],
+        "ingredients": [
+          {
+            "item": "yellow onion (medium)",
+            "amount": "1, finely chopped"
+          },
+          {
+            "item": "red bell pepper (large)",
+            "amount": "1, finely chopped"
+          },
+          {
+            "item": "garlic cloves",
+            "amount": "4, minced"
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "ground beef",
+            "amount": "1 pound"
+          },
+          {
+            "item": "cauliflower rice (frozen or fresh)",
+            "amount": "1 pound"
+          },
+          {
+            "item": "taco seasoning",
+            "amount": "1 tablespoon plus 2 teaspoons"
+          },
+          {
+            "item": "kosher salt",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "spinach or kale",
+            "amount": "2 big handfuls"
+          },
+          {
+            "item": "all-purpose flour",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "diced tomatoes (28-ounce can)",
+            "amount": "1 can"
+          },
+          {
+            "item": "corn tortillas (6- to 8-inch)",
+            "amount": "6"
+          },
+          {
+            "item": "cheddar or Mexican cheese (grated/shredded)",
+            "amount": "1 packed cup"
+          }
+        ],
+        "steps": [],
+        "notes": ""
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-11-10",
+      "day": "Tuesday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Takeout or leftovers"
+    },
+    {
+      "date": "2026-11-11",
+      "day": "Wednesday",
+      "meal": {
+        "title": "Butternut Squash Farro-tto",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/butternut-squash-farro-tto",
+        "chef": "Caroline Chambers",
+        "time_minutes": 45,
+        "servings": 6,
+        "tags": [
+          "vegetarian",
+          "farro",
+          "squash",
+          "weeknight",
+          "one-pot"
+        ],
+        "ingredients": [
+          {
+            "item": "extra-virgin olive oil",
+            "amount": "2 tablespoons"
+          },
+          {
+            "item": "yellow onion (large)",
+            "amount": "1, diced"
+          },
+          {
+            "item": "farro",
+            "amount": "1 1/2 cups"
+          },
+          {
+            "item": "garlic cloves",
+            "amount": "4, minced"
+          },
+          {
+            "item": "dried oregano",
+            "amount": "1 1/2 teaspoons"
+          },
+          {
+            "item": "low-sodium vegetable broth",
+            "amount": "1 quart (4 cups)"
+          },
+          {
+            "item": "butternut squash (chopped)",
+            "amount": "3 cups (~20 ounces)"
+          },
+          {
+            "item": "cauliflower rice",
+            "amount": "1 cup (optional)"
+          },
+          {
+            "item": "kosher salt",
+            "amount": "to taste"
+          },
+          {
+            "item": "garlic powder",
+            "amount": "1/2 teaspoon"
+          },
+          {
+            "item": "spinach (chopped)",
+            "amount": "4 cups"
+          },
+          {
+            "item": "lemon juice",
+            "amount": "juice of 1 lemon"
+          },
+          {
+            "item": "Parmesan cheese (grated)",
+            "amount": "1 cup"
+          },
+          {
+            "item": "Gruy\u00e8re cheese (shredded)",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "frozen broccoli",
+            "amount": "1 cup"
+          },
+          {
+            "item": "black pepper (freshly grated)",
+            "amount": "1/2 teaspoon"
+          }
+        ],
+        "steps": [],
+        "notes": "Peas substituted with frozen broccoli."
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-11-12",
+      "day": "Thursday",
+      "meal": {
+        "title": "Crispy Farro with Sausage and Asparagus",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/crispy-farro-with-sausage-and-asparagus",
+        "chef": "Caroline Chambers",
+        "time_minutes": 40,
+        "servings": 4,
+        "tags": [
+          "sausage",
+          "farro",
+          "asparagus",
+          "one-pot",
+          "weeknight"
+        ],
+        "ingredients": [
+          {
+            "item": "pearled farro, uncooked (or 3 cups pre-cooked)",
+            "amount": "1 1/2 cups"
+          },
+          {
+            "item": "kosher salt",
+            "amount": "to taste"
+          },
+          {
+            "item": "mild or hot Italian sausage, casings removed",
+            "amount": "1 pound"
+          },
+          {
+            "item": "scallions (1 bunch), trimmed and thinly sliced on a diagonal, dark green parts kept separate",
+            "amount": ""
+          },
+          {
+            "item": "asparagus (1 bunch), trimmed and thinly sliced on a diagonal into 1/2-inch pieces",
+            "amount": ""
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "amount": "1 tablespoon, plus more as needed"
+          },
+          {
+            "item": "red wine vinegar",
+            "amount": "1 tablespoon, plus more to taste"
+          }
+        ],
+        "steps": [],
+        "notes": "If you can't find pearled farro, cooking time will be longer \u2014 see source link for guidance."
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-11-13",
+      "day": "Friday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Takeout or leftovers"
+    },
+    {
+      "date": "2026-11-14",
+      "day": "Saturday",
+      "meal": {
+        "title": "Jammy Tomato Feta Rice with Herby Pork Tenderloin",
+        "source": "What to Cook When You Don't Feel Like Cooking",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/jammy-tomato-feta-rice-with-herby",
+        "chef": "Caroline Chambers",
+        "time_minutes": 90,
+        "servings": 4,
+        "tags": [
+          "pork",
+          "rice",
+          "tomato",
+          "feta",
+          "weekend",
+          "one-pan"
+        ],
+        "ingredients": [
+          {
+            "item": "fennel bulb, stalks and root trimmed, thinly sliced",
+            "amount": "1"
+          },
+          {
+            "item": "shallots, chopped",
+            "amount": "2"
+          },
+          {
+            "item": "garlic cloves, smashed",
+            "amount": "4"
+          },
+          {
+            "item": "cherry tomatoes",
+            "amount": "2 pints (about 1\u00bd pounds)"
+          },
+          {
+            "item": "feta block",
+            "amount": "1 (8 oz)"
+          },
+          {
+            "item": "extra-virgin olive oil, divided",
+            "amount": "\u00bc cup + 2 tablespoons"
+          },
+          {
+            "item": "kosher salt and freshly ground black pepper",
+            "amount": "to taste"
+          },
+          {
+            "item": "pork tenderloins (NOT pork loin)",
+            "amount": "2 (1 pound each)"
+          },
+          {
+            "item": "dried green herbs (oregano, dill, basil, parsley, herbs de Provence, etc.)",
+            "amount": "2 teaspoons"
+          },
+          {
+            "item": "Dijon mustard",
+            "amount": "2 teaspoons"
+          },
+          {
+            "item": "basmati rice",
+            "amount": "1\u00bd cups"
+          },
+          {
+            "item": "boiling water",
+            "amount": "2\u00bd cups"
+          }
+        ],
+        "steps": [],
+        "notes": "90 min total, ~30 min active. Serves 4\u20136 \u2014 good weekend recipe."
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-11-15",
+      "day": "Sunday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Takeout or leftovers"
+    }
+  ]
+}

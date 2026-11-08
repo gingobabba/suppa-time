@@ -1,74 +1,76 @@
 {
-  "week_of": "2026-11-02",
-  "updated": "2026-11-01",
+  "week_of": "2026-11-09",
+  "updated": "2026-11-08",
   "days": [
     {
-      "date": "2026-11-02",
+      "date": "2026-11-09",
       "day": "Monday",
       "meal": {
-        "title": "30-Minute Chicken Parm Meatballs",
+        "title": "Beef Enchilada Casserole",
         "source": "What to Cook (Caroline Chambers)",
         "source_type": "substack",
-        "source_url": "https://whattocook.substack.com/p/30-minute-chicken-parm-meatballs",
+        "source_url": "https://whattocook.substack.com/p/beef-enchilada-casserole",
         "chef": "Caroline Chambers",
-        "time_minutes": 30,
-        "servings": 4,
+        "time_minutes": 45,
+        "servings": 6,
         "tags": [
-          "chicken",
-          "meatballs",
-          "italian",
-          "quick",
-          "weeknight",
-          "one-pan"
+          "beef",
+          "casserole",
+          "mexican-inspired",
+          "weeknight"
         ],
         "ingredients": [
           {
-            "item": "ground chicken",
+            "item": "yellow onion (medium)",
+            "amount": "1, finely chopped"
+          },
+          {
+            "item": "red bell pepper (large)",
+            "amount": "1, finely chopped"
+          },
+          {
+            "item": "garlic cloves",
+            "amount": "4, minced"
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "ground beef",
             "amount": "1 pound"
           },
           {
-            "item": "panko breadcrumbs, plus more for rolling",
-            "amount": "1/3 cup"
+            "item": "cauliflower rice (frozen or fresh)",
+            "amount": "1 pound"
           },
           {
-            "item": "Parmesan cheese, grated, plus more for garnish",
-            "amount": "1/2 cup"
-          },
-          {
-            "item": "Italian seasoning (or 1 tsp each dried thyme, oregano, and parsley)",
-            "amount": "1 tablespoon"
+            "item": "taco seasoning",
+            "amount": "1 tablespoon plus 2 teaspoons"
           },
           {
             "item": "kosher salt",
             "amount": "1 teaspoon"
           },
           {
-            "item": "fresh basil, finely chopped, plus more for garnish",
-            "amount": "1/4 cup"
+            "item": "spinach or kale",
+            "amount": "2 big handfuls"
           },
           {
-            "item": "garlic cloves, grated (or 1/2 tsp garlic powder)",
-            "amount": "2"
+            "item": "all-purpose flour",
+            "amount": "1 tablespoon"
           },
           {
-            "item": "egg",
-            "amount": "1"
+            "item": "diced tomatoes (28-ounce can)",
+            "amount": "1 can"
           },
           {
-            "item": "cooking spray",
-            "amount": ""
+            "item": "corn tortillas (6- to 8-inch)",
+            "amount": "6"
           },
           {
-            "item": "marinara sauce (24-oz jar)",
-            "amount": "1"
-          },
-          {
-            "item": "mozzarella (ciliegine, shredded, or burrata)",
-            "amount": "4 ounces"
-          },
-          {
-            "item": "French bread, sourdough, cooked pasta, or cauliflower rice",
-            "amount": "for serving"
+            "item": "cheddar or Mexican cheese (grated/shredded)",
+            "amount": "1 packed cup"
           }
         ],
         "steps": [],
@@ -78,162 +80,94 @@
       "rest_day_label": ""
     },
     {
-      "date": "2026-11-03",
+      "date": "2026-11-10",
       "day": "Tuesday",
       "meal": null,
       "rest_day": true,
       "rest_day_label": "Takeout or leftovers"
     },
     {
-      "date": "2026-11-04",
+      "date": "2026-11-11",
       "day": "Wednesday",
       "meal": {
-        "title": "Creamy Corn Pasta",
+        "title": "Butternut Squash Farro-tto",
         "source": "What to Cook (Caroline Chambers)",
         "source_type": "substack",
-        "source_url": "https://whattocook.substack.com/p/creamy-corn-pasta",
+        "source_url": "https://whattocook.substack.com/p/butternut-squash-farro-tto",
         "chef": "Caroline Chambers",
-        "time_minutes": 35,
+        "time_minutes": 45,
         "servings": 6,
         "tags": [
           "vegetarian",
-          "pasta",
-          "corn",
-          "quick",
-          "weeknight"
-        ],
-        "ingredients": [
-          {
-            "item": "kosher salt",
-            "amount": "to taste"
-          },
-          {
-            "item": "farfalle, orecchiette, rigatoni, or cheese tortellini",
-            "amount": "1 pound"
-          },
-          {
-            "item": "large shallot, diced",
-            "amount": "1"
-          },
-          {
-            "item": "garlic cloves, minced",
-            "amount": "2"
-          },
-          {
-            "item": "fresh corn ears, kernels removed (about 2 3/4 cups) OR frozen white corn",
-            "amount": "6 ears or 2 (16-oz) bags"
-          },
-          {
-            "item": "unsalted butter",
-            "amount": "4 tablespoons"
-          },
-          {
-            "item": "red pepper flakes, plus more to taste",
-            "amount": "1/8 teaspoon"
-          },
-          {
-            "item": "water (not pasta water)",
-            "amount": "1/2 cup"
-          },
-          {
-            "item": "lemons",
-            "amount": "2"
-          },
-          {
-            "item": "Parmesan cheese, grated, plus more for garnish",
-            "amount": "2/3 cup"
-          },
-          {
-            "item": "fresh basil (half bunch)",
-            "amount": "for garnish"
-          }
-        ],
-        "steps": [],
-        "notes": "If you forget to reserve pasta water, see the source link for a workaround."
-      },
-      "rest_day": false,
-      "rest_day_label": ""
-    },
-    {
-      "date": "2026-11-05",
-      "day": "Thursday",
-      "meal": {
-        "title": "Chicken Meatballs with Lemon Orzo",
-        "source": "What to Cook (Caroline Chambers)",
-        "source_type": "substack",
-        "source_url": "https://whattocook.substack.com/p/chicken-meatballs-with-lemon-orzo",
-        "chef": "Caroline Chambers",
-        "time_minutes": 40,
-        "servings": 4,
-        "tags": [
-          "chicken",
-          "meatballs",
-          "pasta",
-          "orzo",
-          "lemon",
+          "farro",
+          "squash",
           "weeknight",
-          "one-pan"
+          "one-pot"
         ],
         "ingredients": [
           {
             "item": "extra-virgin olive oil",
-            "amount": "1 tablespoon"
+            "amount": "2 tablespoons"
           },
           {
-            "item": "large egg",
-            "amount": "1"
+            "item": "yellow onion (large)",
+            "amount": "1, diced"
           },
           {
-            "item": "ground chicken",
-            "amount": "1 pound"
+            "item": "farro",
+            "amount": "1 1/2 cups"
           },
           {
-            "item": "Parmesan cheese, grated, divided",
-            "amount": "1 cup"
+            "item": "garlic cloves",
+            "amount": "4, minced"
           },
           {
-            "item": "fresh rosemary, finely minced",
-            "amount": "1 tablespoon"
+            "item": "dried oregano",
+            "amount": "1 1/2 teaspoons"
           },
           {
-            "item": "breadcrumbs or almond flour",
-            "amount": "1/3 cup"
+            "item": "low-sodium vegetable broth",
+            "amount": "1 quart (4 cups)"
           },
           {
-            "item": "lemon (preferably Meyer), zested and juiced, divided",
-            "amount": "1"
+            "item": "butternut squash (chopped)",
+            "amount": "3 cups (~20 ounces)"
+          },
+          {
+            "item": "cauliflower rice",
+            "amount": "1 cup (optional)"
           },
           {
             "item": "kosher salt",
             "amount": "to taste"
           },
           {
-            "item": "red pepper flakes, divided",
+            "item": "garlic powder",
             "amount": "1/2 teaspoon"
           },
           {
-            "item": "large shallot, minced",
-            "amount": "1"
+            "item": "spinach (chopped)",
+            "amount": "4 cups"
           },
           {
-            "item": "garlic cloves, minced",
-            "amount": "2"
+            "item": "lemon juice",
+            "amount": "juice of 1 lemon"
           },
           {
-            "item": "unsalted butter",
-            "amount": "3 tablespoons"
-          },
-          {
-            "item": "orzo pasta",
+            "item": "Parmesan cheese (grated)",
             "amount": "1 cup"
           },
           {
-            "item": "low-sodium chicken stock",
-            "amount": "2\u20133 cups"
+            "item": "Gruy\u00e8re cheese (shredded)",
+            "amount": "1/2 cup"
           },
           {
-            "item": "frozen broccoli florets",
+            "item": "frozen broccoli",
             "amount": "1 cup"
+          },
+          {
+            "item": "black pepper (freshly grated)",
+            "amount": "1/2 teaspoon"
           }
         ],
         "steps": [],
@@ -243,114 +177,143 @@
       "rest_day_label": ""
     },
     {
-      "date": "2026-11-06",
-      "day": "Friday",
-      "meal": null,
-      "rest_day": true,
-      "rest_day_label": "Rest day"
-    },
-    {
-      "date": "2026-11-07",
-      "day": "Saturday",
+      "date": "2026-11-12",
+      "day": "Thursday",
       "meal": {
-        "title": "Autumn Chop",
+        "title": "Crispy Farro with Sausage and Asparagus",
         "source": "What to Cook (Caroline Chambers)",
         "source_type": "substack",
-        "source_url": "https://whattocook.substack.com/p/autumn-chop",
+        "source_url": "https://whattocook.substack.com/p/crispy-farro-with-sausage-and-asparagus",
         "chef": "Caroline Chambers",
-        "time_minutes": 55,
+        "time_minutes": 40,
         "servings": 4,
         "tags": [
-          "chicken",
-          "salad",
-          "kale",
-          "squash",
-          "apple",
-          "fall",
-          "sheet-pan"
+          "sausage",
+          "farro",
+          "asparagus",
+          "one-pot",
+          "weeknight"
         ],
         "ingredients": [
           {
-            "item": "extra-virgin olive oil",
-            "amount": "1/2 cup"
-          },
-          {
-            "item": "balsamic vinegar",
-            "amount": "1/3 cup"
-          },
-          {
-            "item": "lemon juice",
-            "amount": "2 tablespoons"
-          },
-          {
-            "item": "maple syrup",
-            "amount": "1 tablespoon"
-          },
-          {
-            "item": "Dijon mustard (optional)",
-            "amount": "1 heaping teaspoon"
+            "item": "pearled farro, uncooked (or 3 cups pre-cooked)",
+            "amount": "1 1/2 cups"
           },
           {
             "item": "kosher salt",
-            "amount": "3/4 teaspoon"
-          },
-          {
-            "item": "garlic powder",
-            "amount": "1/4 teaspoon"
-          },
-          {
-            "item": "black pepper",
             "amount": "to taste"
           },
           {
-            "item": "red onion (large), sliced 1/4-inch thick",
-            "amount": "1"
-          },
-          {
-            "item": "butternut squash, cubed into 1-inch pieces (fresh or frozen)",
+            "item": "mild or hot Italian sausage, casings removed",
             "amount": "1 pound"
           },
           {
-            "item": "fresh thyme sprigs (or 3 rosemary sprigs)",
-            "amount": "6"
+            "item": "scallions (1 bunch), trimmed and thinly sliced on a diagonal, dark green parts kept separate",
+            "amount": ""
           },
           {
-            "item": "kosher salt and black pepper",
-            "amount": "to taste"
+            "item": "asparagus (1 bunch), trimmed and thinly sliced on a diagonal into 1/2-inch pieces",
+            "amount": ""
           },
           {
-            "item": "boneless, skinless chicken breasts",
-            "amount": "2"
+            "item": "extra-virgin olive oil",
+            "amount": "1 tablespoon, plus more as needed"
           },
           {
-            "item": "curly kale, de-ribbed and chopped (or 10\u201312 oz bag pre-chopped)",
-            "amount": "1 bunch"
-          },
-          {
-            "item": "Honeycrisp apple (large), thinly sliced",
-            "amount": "1"
-          },
-          {
-            "item": "dates, chopped (or 1/4 cup dried cranberries or golden raisins)",
-            "amount": "5"
-          },
-          {
-            "item": "candied or roasted pecans or pistachios",
-            "amount": "1/2 cup"
-          },
-          {
-            "item": "goat cheese or feta, crumbled",
-            "amount": "8 ounces"
+            "item": "red wine vinegar",
+            "amount": "1 tablespoon, plus more to taste"
           }
         ],
         "steps": [],
-        "notes": "Frozen butternut squash works \u2014 cook straight from frozen."
+        "notes": "If you can't find pearled farro, cooking time will be longer \u2014 see source link for guidance."
       },
       "rest_day": false,
       "rest_day_label": ""
     },
     {
-      "date": "2026-11-08",
+      "date": "2026-11-13",
+      "day": "Friday",
+      "meal": null,
+      "rest_day": true,
+      "rest_day_label": "Takeout or leftovers"
+    },
+    {
+      "date": "2026-11-14",
+      "day": "Saturday",
+      "meal": {
+        "title": "Jammy Tomato Feta Rice with Herby Pork Tenderloin",
+        "source": "What to Cook When You Don't Feel Like Cooking",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/jammy-tomato-feta-rice-with-herby",
+        "chef": "Caroline Chambers",
+        "time_minutes": 90,
+        "servings": 4,
+        "tags": [
+          "pork",
+          "rice",
+          "tomato",
+          "feta",
+          "weekend",
+          "one-pan"
+        ],
+        "ingredients": [
+          {
+            "item": "fennel bulb, stalks and root trimmed, thinly sliced",
+            "amount": "1"
+          },
+          {
+            "item": "shallots, chopped",
+            "amount": "2"
+          },
+          {
+            "item": "garlic cloves, smashed",
+            "amount": "4"
+          },
+          {
+            "item": "cherry tomatoes",
+            "amount": "2 pints (about 1\u00bd pounds)"
+          },
+          {
+            "item": "feta block",
+            "amount": "1 (8 oz)"
+          },
+          {
+            "item": "extra-virgin olive oil, divided",
+            "amount": "\u00bc cup + 2 tablespoons"
+          },
+          {
+            "item": "kosher salt and freshly ground black pepper",
+            "amount": "to taste"
+          },
+          {
+            "item": "pork tenderloins (NOT pork loin)",
+            "amount": "2 (1 pound each)"
+          },
+          {
+            "item": "dried green herbs (oregano, dill, basil, parsley, herbs de Provence, etc.)",
+            "amount": "2 teaspoons"
+          },
+          {
+            "item": "Dijon mustard",
+            "amount": "2 teaspoons"
+          },
+          {
+            "item": "basmati rice",
+            "amount": "1\u00bd cups"
+          },
+          {
+            "item": "boiling water",
+            "amount": "2\u00bd cups"
+          }
+        ],
+        "steps": [],
+        "notes": "90 min total, ~30 min active. Serves 4\u20136 \u2014 good weekend recipe."
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-11-15",
       "day": "Sunday",
       "meal": null,
       "rest_day": true,
