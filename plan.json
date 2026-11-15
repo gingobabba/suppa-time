@@ -1,76 +1,102 @@
 {
-  "week_of": "2026-11-09",
-  "updated": "2026-11-08",
+  "week_of": "2026-11-16",
+  "updated": "2026-11-15",
   "days": [
     {
-      "date": "2026-11-09",
+      "date": "2026-11-16",
       "day": "Monday",
       "meal": {
-        "title": "Beef Enchilada Casserole",
+        "title": "Curry Roasted Chicken and Cauliflower Salad",
         "source": "What to Cook (Caroline Chambers)",
         "source_type": "substack",
-        "source_url": "https://whattocook.substack.com/p/beef-enchilada-casserole",
+        "source_url": "https://whattocook.substack.com/p/curry-roasted-chicken-and-cauliflower",
         "chef": "Caroline Chambers",
         "time_minutes": 45,
-        "servings": 6,
+        "servings": 4,
         "tags": [
-          "beef",
-          "casserole",
-          "mexican-inspired",
-          "weeknight"
+          "chicken",
+          "salad",
+          "cauliflower",
+          "sheet-pan",
+          "weeknight",
+          "curry"
         ],
         "ingredients": [
           {
-            "item": "yellow onion (medium)",
-            "amount": "1, finely chopped"
+            "item": "cauliflower head, cut into 1-inch flat florets",
+            "amount": "1"
           },
           {
-            "item": "red bell pepper (large)",
-            "amount": "1, finely chopped"
+            "item": "small red onion, thinly sliced",
+            "amount": "1"
           },
           {
-            "item": "garlic cloves",
-            "amount": "4, minced"
+            "item": "boneless skinless chicken thighs",
+            "amount": "1 1/2 pounds"
           },
           {
             "item": "extra-virgin olive oil",
-            "amount": "1 tablespoon"
+            "amount": "1/4 cup"
           },
           {
-            "item": "ground beef",
-            "amount": "1 pound"
+            "item": "kosher salt and black pepper",
+            "amount": "to taste"
           },
           {
-            "item": "cauliflower rice (frozen or fresh)",
-            "amount": "1 pound"
-          },
-          {
-            "item": "taco seasoning",
-            "amount": "1 tablespoon plus 2 teaspoons"
-          },
-          {
-            "item": "kosher salt",
+            "item": "smoked paprika",
             "amount": "1 teaspoon"
           },
           {
-            "item": "spinach or kale",
-            "amount": "2 big handfuls"
+            "item": "curry powder, divided",
+            "amount": "2 teaspoons"
           },
           {
-            "item": "all-purpose flour",
+            "item": "ground coriander",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "garlic powder",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "mayonnaise",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "Greek yogurt",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "lime juice",
+            "amount": "juice of 2 limes"
+          },
+          {
+            "item": "water",
+            "amount": "2 tablespoons"
+          },
+          {
+            "item": "honey",
             "amount": "1 tablespoon"
           },
           {
-            "item": "diced tomatoes (28-ounce can)",
-            "amount": "1 can"
+            "item": "small honeycrisp apple, cut into batons",
+            "amount": "1"
           },
           {
-            "item": "corn tortillas (6- to 8-inch)",
-            "amount": "6"
+            "item": "dates, pitted and chopped (or 1/3 cup dried cranberries or golden raisins)",
+            "amount": "5"
           },
           {
-            "item": "cheddar or Mexican cheese (grated/shredded)",
-            "amount": "1 packed cup"
+            "item": "arugula (5-oz container)",
+            "amount": "1"
+          },
+          {
+            "item": "Parmesan, shaved with a vegetable peeler",
+            "amount": "4 ounces"
+          },
+          {
+            "item": "roasted salted pistachios, sunflower seeds, pepitas, or almonds",
+            "amount": "1/4 cup"
           }
         ],
         "steps": [],
@@ -80,240 +106,346 @@
       "rest_day_label": ""
     },
     {
-      "date": "2026-11-10",
+      "date": "2026-11-17",
       "day": "Tuesday",
-      "meal": null,
-      "rest_day": true,
-      "rest_day_label": "Takeout or leftovers"
-    },
-    {
-      "date": "2026-11-11",
-      "day": "Wednesday",
       "meal": {
-        "title": "Butternut Squash Farro-tto",
+        "title": "Saucy Ground Beef Teriyaki Bowls",
         "source": "What to Cook (Caroline Chambers)",
         "source_type": "substack",
-        "source_url": "https://whattocook.substack.com/p/butternut-squash-farro-tto",
+        "source_url": "https://whattocook.substack.com/p/saucy-ground-beef-teriyaki-bowls",
         "chef": "Caroline Chambers",
-        "time_minutes": 45,
-        "servings": 6,
-        "tags": [
-          "vegetarian",
-          "farro",
-          "squash",
-          "weeknight",
-          "one-pot"
-        ],
-        "ingredients": [
-          {
-            "item": "extra-virgin olive oil",
-            "amount": "2 tablespoons"
-          },
-          {
-            "item": "yellow onion (large)",
-            "amount": "1, diced"
-          },
-          {
-            "item": "farro",
-            "amount": "1 1/2 cups"
-          },
-          {
-            "item": "garlic cloves",
-            "amount": "4, minced"
-          },
-          {
-            "item": "dried oregano",
-            "amount": "1 1/2 teaspoons"
-          },
-          {
-            "item": "low-sodium vegetable broth",
-            "amount": "1 quart (4 cups)"
-          },
-          {
-            "item": "butternut squash (chopped)",
-            "amount": "3 cups (~20 ounces)"
-          },
-          {
-            "item": "cauliflower rice",
-            "amount": "1 cup (optional)"
-          },
-          {
-            "item": "kosher salt",
-            "amount": "to taste"
-          },
-          {
-            "item": "garlic powder",
-            "amount": "1/2 teaspoon"
-          },
-          {
-            "item": "spinach (chopped)",
-            "amount": "4 cups"
-          },
-          {
-            "item": "lemon juice",
-            "amount": "juice of 1 lemon"
-          },
-          {
-            "item": "Parmesan cheese (grated)",
-            "amount": "1 cup"
-          },
-          {
-            "item": "Gruy\u00e8re cheese (shredded)",
-            "amount": "1/2 cup"
-          },
-          {
-            "item": "frozen broccoli",
-            "amount": "1 cup"
-          },
-          {
-            "item": "black pepper (freshly grated)",
-            "amount": "1/2 teaspoon"
-          }
-        ],
-        "steps": [],
-        "notes": "Peas substituted with frozen broccoli."
-      },
-      "rest_day": false,
-      "rest_day_label": ""
-    },
-    {
-      "date": "2026-11-12",
-      "day": "Thursday",
-      "meal": {
-        "title": "Crispy Farro with Sausage and Asparagus",
-        "source": "What to Cook (Caroline Chambers)",
-        "source_type": "substack",
-        "source_url": "https://whattocook.substack.com/p/crispy-farro-with-sausage-and-asparagus",
-        "chef": "Caroline Chambers",
-        "time_minutes": 40,
+        "time_minutes": 30,
         "servings": 4,
         "tags": [
-          "sausage",
-          "farro",
-          "asparagus",
-          "one-pot",
+          "beef",
+          "rice",
+          "bowls",
+          "asian-inspired",
+          "quick",
           "weeknight"
         ],
         "ingredients": [
           {
-            "item": "pearled farro, uncooked (or 3 cups pre-cooked)",
+            "item": "low-sodium soy sauce or coconut aminos",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "cornstarch, arrowroot, or tapioca powder",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "water",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "sesame oil",
+            "amount": "2 tablespoons"
+          },
+          {
+            "item": "coconut sugar",
+            "amount": "1/4 cup"
+          },
+          {
+            "item": "garlic powder",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "ground ginger",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "small onion, finely diced",
+            "amount": "1"
+          },
+          {
+            "item": "garlic cloves, mashed",
+            "amount": "3"
+          },
+          {
+            "item": "red bell pepper, diced",
+            "amount": "1"
+          },
+          {
+            "item": "broccoli florets, finely diced",
             "amount": "1 1/2 cups"
           },
           {
-            "item": "kosher salt",
-            "amount": "to taste"
+            "item": "shredded carrots",
+            "amount": "3/4 cup"
           },
           {
-            "item": "mild or hot Italian sausage, casings removed",
+            "item": "olive oil",
+            "amount": "2 tablespoons"
+          },
+          {
+            "item": "ground beef (90/10)",
             "amount": "1 pound"
           },
           {
-            "item": "scallions (1 bunch), trimmed and thinly sliced on a diagonal, dark green parts kept separate",
-            "amount": ""
+            "item": "jasmine rice, cooked per package instructions",
+            "amount": "1 cup"
           },
           {
-            "item": "asparagus (1 bunch), trimmed and thinly sliced on a diagonal into 1/2-inch pieces",
-            "amount": ""
-          },
-          {
-            "item": "extra-virgin olive oil",
-            "amount": "1 tablespoon, plus more as needed"
-          },
-          {
-            "item": "red wine vinegar",
-            "amount": "1 tablespoon, plus more to taste"
+            "item": "garnishes",
+            "amount": "sliced green onions, sesame seeds"
           }
         ],
         "steps": [],
-        "notes": "If you can't find pearled farro, cooking time will be longer \u2014 see source link for guidance."
+        "notes": "Avocado oil substituted with olive oil."
       },
       "rest_day": false,
       "rest_day_label": ""
     },
     {
-      "date": "2026-11-13",
+      "date": "2026-11-18",
+      "day": "Wednesday",
+      "meal": {
+        "title": "Happy Bowls",
+        "source": "What to Cook (Caroline Chambers)",
+        "source_type": "substack",
+        "source_url": "https://whattocook.substack.com/p/happy-bowls",
+        "chef": "Caroline Chambers",
+        "time_minutes": 55,
+        "servings": 4,
+        "tags": [
+          "vegetarian",
+          "vegan",
+          "bowls",
+          "sheet-pan",
+          "cauliflower",
+          "sweet-potato",
+          "beet",
+          "weekend"
+        ],
+        "ingredients": [
+          {
+            "item": "roasted cashews (sub: 1 can cannellini beans + 1 tbsp olive oil)",
+            "amount": "2 cups"
+          },
+          {
+            "item": "fresh soft green herbs (basil, cilantro, or dill)",
+            "amount": "1 cup"
+          },
+          {
+            "item": "apple cider vinegar",
+            "amount": "2 tablespoons"
+          },
+          {
+            "item": "hot water, plus more as needed",
+            "amount": "1/2 cup"
+          },
+          {
+            "item": "small garlic clove (or 1/8 tsp garlic powder)",
+            "amount": "1"
+          },
+          {
+            "item": "kosher salt",
+            "amount": "1 teaspoon"
+          },
+          {
+            "item": "extra large sweet potato, 1-inch cubed",
+            "amount": "1"
+          },
+          {
+            "item": "large beet, 1-inch cubed",
+            "amount": "1"
+          },
+          {
+            "item": "head of cauliflower, cut into thin florets",
+            "amount": "1"
+          },
+          {
+            "item": "small red onion, thinly sliced",
+            "amount": "1"
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "amount": "to coat"
+          },
+          {
+            "item": "kosher salt and black pepper",
+            "amount": "to taste"
+          },
+          {
+            "item": "garlic powder, onion powder, smoked paprika",
+            "amount": "a few shakes each"
+          },
+          {
+            "item": "cooked grain (farro, rice, or similar \u2014 about 1 to 1 1/2 cups dry)",
+            "amount": "as needed"
+          },
+          {
+            "item": "fresh spinach or other greens, chopped",
+            "amount": "a few handfuls"
+          },
+          {
+            "item": "optional toppings",
+            "amount": "crumbled feta, hard-boiled eggs, pickled red onions, roasted nuts or seeds, extra fresh herbs"
+          }
+        ],
+        "steps": [],
+        "notes": "Cashew allergy sub: replace cashews with 1 can cannellini beans + 1 tbsp olive oil in the sauce."
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-11-19",
+      "day": "Thursday",
+      "meal": {
+        "title": "Sheet Pan Gnocchi with Spicy Sausage and Broccoli Rabe",
+        "source": "Jenn Lueke",
+        "source_type": "online",
+        "source_url": "https://jenneatsgoood.com/sheet-pan-gnocchi-with-spicy-sausage-and-broccolini/",
+        "chef": "Jenn Lueke",
+        "time_minutes": 40,
+        "servings": 4,
+        "tags": [
+          "gluten-free",
+          "dairy-free"
+        ],
+        "ingredients": [
+          {
+            "item": "12 ounces frozen gnocchi (I use frozen gluten-free cauliflower gnocchi)",
+            "amount": ""
+          },
+          {
+            "item": "8 ounces broccolini, chopped into 1 1/2-inch pieces",
+            "amount": ""
+          },
+          {
+            "item": "2 packed cups chopped kale",
+            "amount": ""
+          },
+          {
+            "item": "1 shallot, thinly sliced",
+            "amount": ""
+          },
+          {
+            "item": "2 tablespoons olive oil",
+            "amount": ""
+          },
+          {
+            "item": "1 teaspoon garlic powder",
+            "amount": ""
+          },
+          {
+            "item": "1 teaspoon kosher salt",
+            "amount": ""
+          },
+          {
+            "item": "1/2 teaspoon ground black pepper",
+            "amount": ""
+          },
+          {
+            "item": "1/4 teaspoon red pepper flakes (optional)",
+            "amount": ""
+          },
+          {
+            "item": "1 pound ground spicy Italian pork or chicken sausage",
+            "amount": ""
+          },
+          {
+            "item": "juice of 1 lemon",
+            "amount": ""
+          },
+          {
+            "item": "4 ounces crumbled goat cheese, for topping (optional)",
+            "amount": ""
+          }
+        ],
+        "steps": [
+          "Preheat oven to 400F. Prepare a large sheet pan (option to line with parchment paper).",
+          "Add the gnocchi, broccolini, kale, shallot, olive oil, garlic powder, salt, ground black pepper, and red pepper flakes to the sheet pan. Toss to coat the gnocchi and vegetables evenly with the oil and spices, taking care to massage the oil into the kale so it doesn\u2019t burn, and spread everything out in one even layer.",
+          "With lightly oiled hands, shape the ground sausage into 16 to 18 evenly sized meatballs, and place them on the sheet pan, clearing small openings between the gnocchi and vegetables.",
+          "Bake until the meatballs reach an internal temperature of 165F and the vegetables and gnocchi are crisp, 17 to 22 minutes.",
+          "Remove the sheet pan from the oven and squeeze the lemon juice and sprinkle the crumbled goat cheese over top. Divide evenly among 4 plates to serve."
+        ],
+        "notes": "of garlic, fennel, and red pepper. Its rich, juicy texture makes it a flavor powerhouse, adding depth and a little kick to any dish. It\u2019s the perfect way to turn simple ingredients\u2014like pasta and roasted veggies\u2014into something hearty and flavorful. Swaps and substitutions included below for this one. Goat Cheese: Goat cheese is creamy, tangy, and just the right amount of rich. Its smooth texture makes it perfect for spreading, crumbling, or melting into dishes. The bright, slightly citrusy flavo"
+      },
+      "rest_day": false,
+      "rest_day_label": ""
+    },
+    {
+      "date": "2026-11-20",
       "day": "Friday",
       "meal": null,
       "rest_day": true,
       "rest_day_label": "Takeout or leftovers"
     },
     {
-      "date": "2026-11-14",
+      "date": "2026-11-21",
       "day": "Saturday",
       "meal": {
-        "title": "Jammy Tomato Feta Rice with Herby Pork Tenderloin",
-        "source": "What to Cook When You Don't Feel Like Cooking",
+        "title": "Rotisserie-ish Chicken with Schmaltzy Cabbage",
+        "source": "What to Cook (Caroline Chambers)",
         "source_type": "substack",
-        "source_url": "https://whattocook.substack.com/p/jammy-tomato-feta-rice-with-herby",
+        "source_url": "https://whattocook.substack.com/p/rotisserie-ish-chicken-with-schmaltzy",
         "chef": "Caroline Chambers",
         "time_minutes": 90,
         "servings": 4,
         "tags": [
-          "pork",
-          "rice",
-          "tomato",
-          "feta",
-          "weekend",
-          "one-pan"
+          "chicken",
+          "whole-chicken",
+          "cabbage",
+          "sweet-potato",
+          "sheet-pan",
+          "weekend"
         ],
         "ingredients": [
           {
-            "item": "fennel bulb, stalks and root trimmed, thinly sliced",
+            "item": "green cabbage head (~2 lbs), cored and thinly sliced",
             "amount": "1"
           },
           {
-            "item": "shallots, chopped",
-            "amount": "2"
+            "item": "extra-virgin olive oil",
+            "amount": "as needed"
           },
           {
-            "item": "garlic cloves, smashed",
-            "amount": "4"
-          },
-          {
-            "item": "cherry tomatoes",
-            "amount": "2 pints (about 1\u00bd pounds)"
-          },
-          {
-            "item": "feta block",
-            "amount": "1 (8 oz)"
-          },
-          {
-            "item": "extra-virgin olive oil, divided",
-            "amount": "\u00bc cup + 2 tablespoons"
-          },
-          {
-            "item": "kosher salt and freshly ground black pepper",
+            "item": "kosher salt",
             "amount": "to taste"
           },
           {
-            "item": "pork tenderloins (NOT pork loin)",
-            "amount": "2 (1 pound each)"
+            "item": "brown sugar",
+            "amount": "1 tablespoon"
           },
           {
-            "item": "dried green herbs (oregano, dill, basil, parsley, herbs de Provence, etc.)",
-            "amount": "2 teaspoons"
+            "item": "smoked paprika",
+            "amount": "1 tablespoon"
           },
           {
-            "item": "Dijon mustard",
-            "amount": "2 teaspoons"
+            "item": "chili powder",
+            "amount": "1 teaspoon"
           },
           {
-            "item": "basmati rice",
-            "amount": "1\u00bd cups"
+            "item": "ground black pepper",
+            "amount": "1/2 teaspoon"
           },
           {
-            "item": "boiling water",
-            "amount": "2\u00bd cups"
+            "item": "whole chicken (3 1/2 to 4 pounds)",
+            "amount": "1"
+          },
+          {
+            "item": "medium sweet potatoes",
+            "amount": "4"
+          },
+          {
+            "item": "apple cider vinegar or lemon juice",
+            "amount": "1 tablespoon"
+          },
+          {
+            "item": "unsalted butter",
+            "amount": "4 tablespoons"
           }
         ],
         "steps": [],
-        "notes": "90 min total, ~30 min active. Serves 4\u20136 \u2014 good weekend recipe."
+        "notes": "Whole chicken time varies by bird size and oven \u2014 start checking at 45 minutes."
       },
       "rest_day": false,
       "rest_day_label": ""
     },
     {
-      "date": "2026-11-15",
+      "date": "2026-11-22",
       "day": "Sunday",
       "meal": null,
       "rest_day": true,
